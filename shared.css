@@ -20,6 +20,20 @@ HOME PAGE
 }
 
 /*
+LIBRARY
+*/
+/* Turn backgrounds black */
+.gamepadlibrary_GamepadLibrary_ZBBhe {
+  background: #000 !important;
+}
+.steamdeckcompatfilter_CompatFilterDialog_21qvB {
+  background: #000 !important;
+}
+.allcollections_Collection_3IWn- {
+  background: #000 !important;
+}
+
+/*
 GAME DETAILS
 */
 
@@ -83,6 +97,36 @@ STEAM INPUT
   background: #000 !important;
 }
 
+/* 
+FRIENDS & CHAT
+*/
+
+/* Get rid of glow */
+.SteamDeckChats.gpfocuswithin .chattabs_ChatTab_1WfqA {
+  box-shadow: none;
+}
+/* Turn backgrounds black */
+.GamepadMode.friendlist.gpfocuswithin .FriendsListSteamDeckTopSection {
+  background: #000 !important;
+}
+.GamepadMode.friendlist {
+  background-color: #000 !important;
+  background: #000 !important;
+}
+.GamepadMode.friendlist.gpfocuswithin {
+  background-color: #000 !important;
+  background: #000 !important;
+}
+.multiChatDialog.GamepadMode,
+.GamepadMode .multiChatDialog {
+  background: #000 !important;
+}
+.multiChatDialog.GamepadMode.gpfocuswithin,
+.GamepadMode .multiChatDialog.gpfocuswithin {
+  background-color: #000 !important;
+  background: #000 !important;
+}
+
 /*
 QUICK ACCESS
 */
@@ -119,4 +163,8 @@ OTHER
 /* Power menu */
 .gamepadui_GamepadDialogOverlay_34Euf .ModalOverlayBackground {
   background: #000000dd !important;
+}
+/* Search */
+.gamepadsearch_GamepadSearch_P_AlE {
+  background: #000 !important;
 }
