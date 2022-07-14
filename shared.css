@@ -1,0 +1,17 @@
+/* Turn the header art to grayscale */
+.gamepadhomerecentgames_RecentGamesBackground_1SRox {
+  filter: grayscale(1);
+}
+
+/* Turn backgrounds black */
+.gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
+  background: #000 !important;
+}
+.gamepadhome_TabbedContent_cE1Sa {
+  background: #000 !important;
+}
+
+.gpfocuswithin ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
+:hover ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
+  opacity: 0;
+}
