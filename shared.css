@@ -155,6 +155,18 @@ DOWNLOADS
 }
 
 /*
+SETTINGS
+*/
+
+/* Turn backgrounds black */
+.BasicUI .librarysettings_LibrarySettings_2nsOY {
+  background: #000 !important;
+}
+.BasicUI .contentmanagement_ContentManagement_3wk64 {
+  background: #000 !important;
+}
+
+/*
 QUICK ACCESS
 */
 
@@ -193,5 +205,9 @@ OTHER
 }
 /* Search */
 .gamepadsearch_GamepadSearch_P_AlE {
+  background: #000 !important;
+}
+/* Media upload */
+.gamepaddialog_ModalPosition_30VHl > .gamepaddialog_GamepadDialogContent_3joNk {
   background: #000 !important;
 }
