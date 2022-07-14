@@ -128,6 +128,33 @@ FRIENDS & CHAT
 }
 
 /*
+DOWNLOADS
+*/
+
+/* Disable blue glow on hero */
+.downloadgraph_HeroAndLogo_3mZ2r
+  .downloadgraph_HeroContainer_3WauY
+  .downloadgraph_HeroGradient_edQzw {
+  background: none;
+}
+/* Turn backgrounds black */
+.downloads_DownloadsPage_1bq4x {
+  background: #000 !important;
+}
+.downloadgraph_HeroAndLogo_3mZ2r.downloadgraph_Empty_pHDI1 {
+  background: #000 !important;
+}
+.downloadgraph_GraphAndStats_3KDkL {
+  background: #000 !important;
+}
+.BasicUI .libraryassetimage_GreyBackground_2E7G8 {
+  background: #000 !important;
+}
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL {
+  background: #000 !important;
+}
+
+/*
 QUICK ACCESS
 */
 
