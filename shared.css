@@ -1,4 +1,6 @@
-/* HOME PAGE*/
+/*
+HOME PAGE
+*/
 
 /* Turn the header art to grayscale */
 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
@@ -17,7 +19,73 @@
   background: #000 !important;
 }
 
-/* QUICK ACCESS */
+/*
+GAME DETAILS
+*/
+
+/* Turn backgrounds black */
+.basicappdetailssectionstyler_AppDetailsRoot_3fp5y {
+  background: #000 !important;
+}
+.DeckVerifiedModalDialogClient .DialogContent,
+.DeckVerifiedModalDialog .DialogContent {
+  background: #000 !important;
+}
+
+/* 
+STEAM INPUT
+*/
+
+/* Make hovered buttons glow white instead of blue */
+.controllerconfiguratorchoosebinding_TriggerButton_2MjBd.gpfocus,
+.controllerconfiguratorchoosebinding_BumperButton_2swvc.gpfocus {
+  filter: drop-shadow(0px 0px 10px #ffffff90);
+}
+.controllerconfiguratorchoosebinding_SelectButton_3i-XV.gpfocus,
+.controllerconfiguratorchoosebinding_StartButton_3s28A.gpfocus {
+  filter: drop-shadow(0px 0px 10px #ffffff90);
+}
+.controllerconfiguratorchoosebinding_MouseKey_19SMS.gpfocus {
+  filter: drop-shadow(0px 0px 10px #ffffff90);
+}
+.controllerconfiguratorchoosebinding_KeyboardKey_NoRFS.gpfocus {
+  filter: drop-shadow(0px 0px 10px #ffffff90);
+}
+.controllerconfiguratorchoosebinding_ControllerActionKey_3yP_p.gpfocus {
+  filter: drop-shadow(0px 0px 10px #ffffff90);
+}
+.controllerconfiguratorchoosebinding_ControllerActionKey_3yP_p.gpfocus {
+  filter: drop-shadow(0px 0px 10px #ffffff90);
+}
+/* Turn backgrounds black */
+.controllerconfigurator_TopSection_20sN9 {
+  background: #000 !important;
+}
+.controllerconfigurator_ControllerConfiguratorMain_APY6j {
+  background: #000 !important;
+}
+.controllerconfigurator_BottomSection_3RsRf {
+  background: #000 !important;
+}
+.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle {
+  background: #000 !important;
+}
+.gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o {
+  background: #000 !important;
+}
+.gamepadpage_GamepadPage_2FqpD.gamepadpage_DialogBackground_2msTK {
+  background: #000 !important;
+}
+.controllerconfigurator_interstitial_ConfiguratorInterstitialContainer_3FS5u {
+  background: #000 !important;
+}
+.controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV {
+  background: #000 !important;
+}
+
+/*
+QUICK ACCESS
+*/
 
 /* Turn backgrounds black */
 .quickaccessmenu_QuickAccessMenu_V0cr- {
@@ -40,7 +108,9 @@
   background-color: #000 !important;
 }
 
-/* OTHER */
+/*
+OTHER
+*/
 
 /* Navigation */
 .mainmenu_Menu_23IDi {
