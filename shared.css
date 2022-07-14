@@ -1,8 +1,14 @@
+/* HOME PAGE*/
+
 /* Turn the header art to grayscale */
 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
   filter: grayscale(1);
 }
-
+/* Remove hovered game glow */
+.gpfocuswithin ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
+:hover ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
+  opacity: 0;
+}
 /* Turn backgrounds black */
 .gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
   background: #000 !important;
@@ -11,7 +17,36 @@
   background: #000 !important;
 }
 
-.gpfocuswithin ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
-:hover ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
-  opacity: 0;
+/* QUICK ACCESS */
+
+/* Turn backgrounds black */
+.quickaccessmenu_QuickAccessMenu_V0cr- {
+  background: #000 !important;
+}
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
+  background-color: #22262b !important;
+}
+.quickaccessmenu_Tab_1S76C {
+  background-color: #000 !important;
+}
+.quickaccessmenu_Title_34nl5 {
+  background: #000 !important;
+  box-shadow: none;
+}
+.GamepadMode.friendlist {
+  background: #000 !important;
+}
+.GamepadMode.friendlist .FriendsListSteamDeckTabs {
+  background-color: #000 !important;
+}
+
+/* OTHER */
+
+/* Navigation */
+.mainmenu_Menu_23IDi {
+  background: #000 !important;
+}
+/* Power menu */
+.gamepadui_GamepadDialogOverlay_34Euf .ModalOverlayBackground {
+  background: #000000dd !important;
 }
