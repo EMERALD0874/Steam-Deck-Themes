@@ -1,9 +1,0 @@
-{
-	"name": "OLED Theme",
-	"version": "0.1",
-	"inject": {
-		"shared.css": [
-			"SP", "MainMenu", "QuickAccess"
-		]
-	}
-}

@@ -1,0 +1,7 @@
+{
+  "name": "Obsidian",
+  "version": "1.0",
+  "inject": {
+    "shared.css": ["SP", "MainMenu", "QuickAccess"]
+  }
+}
