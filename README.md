@@ -2,7 +2,7 @@
 This repository contains various themes that I created for use with [suchmememanyskill's Steam Deck CSS loader](https://github.com/suchmememanyskill/SDH-CssLoader).
 
 ## Installation
-1. Install the [Steam Deck plugin loader](https://github.com/SteamDeckHomebrew/decky-loader).
+1. Install the [Steam Deck plugin loader](https://github.com/SteamDeckHomebrew/decky-loader). The pre-release is recommended at the time of this guide being written.
 1. Open the Plugins section in the Quick Access menu.
 1. Open the [Plugin Store](https://plugins.deckbrew.xyz/) using the shopping bag icon in the top-right corner.
 1. Install [suchmememanyskill/SDH-CssLoader](https://github.com/suchmememanyskill/SDH-CssLoader).
