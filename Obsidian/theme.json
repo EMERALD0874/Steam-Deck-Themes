@@ -1,5 +1,6 @@
 {
   "name": "Obsidian",
+  "author": "EMERALD#0874",
   "version": "1.0",
   "inject": {
     "shared.css": ["SP", "MainMenu", "QuickAccess"]
