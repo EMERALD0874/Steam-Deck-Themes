@@ -1,4 +1,4 @@
-/* Library assets */
+/* Recent games and library */
 .libraryassetimage_Image_24_Au {
   border-radius: 20px;
 }
@@ -18,6 +18,8 @@
   border-radius: 20px;
   overflow: hidden; /* This is to prevent the collection image from overflowing the collection box */
 }
+
+/* What's new */
 .gamepadhomewhatsnew_EventPreviewContainer_1ltOY {
   border-radius: 20px;
   overflow: hidden;
@@ -30,8 +32,7 @@
   border-radius: 20px;
   overflow: hidden;
 }
-
-/* Trending among friends is annoying to mess with outlines with, sorry if this is confusing lol */
+/* Trending among friends (annoying to mess with outlines with, sorry if this is confusing lol) */
 .gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ {
   height: 30px;
   border-radius: 0px 0px 20px 20px;
@@ -50,4 +51,37 @@
 }
 .gamecapsule_Friends_3gKVI {
   margin-left: 10px;
+}
+
+/* Friends */
+.gamepadhomefriends_FavoriteFriend_3SLpz,
+.gamepadhomefriends_GoToFriends_MVc_6 {
+  border-radius: 20px;
+}
+.gamepadhomefriends_InGameGame_KLo2n {
+  border-radius: 20px;
+}
+.BasicUI
+  .appactivityday_ActivityAchievementUnlocked_yJLy7
+  .appactivityday_PrimaryAchievement_26Qli {
+  border-radius: 20px;
+}
+.appactivityday_Event_UVeN0 {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
+  border-radius: 0px 0px 20px 20px;
+}
+.BasicUI
+  .appactivityday_ActivityAchievementUnlocked_yJLy7
+  .appactivityday_PrimaryAchievement_26Qli {
+  border-radius: 20px;
+}
+.BasicUI
+  .appactivityday_ScreenshotCarousel_1pdQd
+  .appactivityday_CarouselThumbs_1tRKR
+  .appactivityday_CarouselThumb_1Lot- {
+  border-radius: 20px;
+  overflow: hidden;
 }
