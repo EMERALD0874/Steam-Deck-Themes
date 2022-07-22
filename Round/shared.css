@@ -13,6 +13,10 @@
 .BasicUI .libraryassetimage_GreyBackground_2E7G8 {
   border-radius: 20px;
 }
+.BasicUI .allcollections_Collection_3IWn- {
+  border-radius: 20px;
+  overflow: hidden; /* This is to prevent the collection image from overflowing the collection box */
+}
 
 /* Exceptions */
 .gamecapsule_GameCapsule_fXdhj
