@@ -1,0 +1,16 @@
+{
+  "name": "Round",
+  "author": "EMERALD#0874",
+  "version": "1.0",
+  "inject": {
+    "shared.css": ["SP"]
+  },
+  "patches": {
+    "Outlines": {
+      "default": "Round",
+      "Round": { "round-outline.css": ["SP"] },
+      "Square": {},
+      "Hidden": { "hide-outline.css": ["SP"] }
+    }
+  }
+}

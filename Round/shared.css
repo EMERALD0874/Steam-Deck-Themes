@@ -1,0 +1,22 @@
+.libraryassetimage_Image_24_Au {
+  border-radius: 20px;
+}
+.appportrait_LibraryItemBox_WYgDg {
+  border-radius: 20px;
+}
+.BasicUI .appportrait_LibraryItemBox_WYgDg::after {
+  border-radius: 20px;
+}
+.gamepadsearch_ResultTemplateImage_3K3Bx {
+  border-radius: 20px;
+}
+.BasicUI .libraryassetimage_GreyBackground_2E7G8 {
+  border-radius: 20px;
+}
+
+/* Exceptions */
+.gamecapsule_GameCapsule_fXdhj
+  > .libraryassetimage_GreyBackground_2E7G8
+  > img.libraryassetimage_Image_24_Au.libraryassetimage_Visibility_3d_bT.libraryassetimage_Visible_yDr03 {
+  border-radius: 0px;
+}
