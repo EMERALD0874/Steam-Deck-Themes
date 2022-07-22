@@ -1,3 +1,4 @@
+/* Library assets */
 .libraryassetimage_Image_24_Au {
   border-radius: 20px;
 }
@@ -17,10 +18,36 @@
   border-radius: 20px;
   overflow: hidden; /* This is to prevent the collection image from overflowing the collection box */
 }
+.gamepadhomewhatsnew_EventPreviewContainer_1ltOY {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.recentlycompleted_RecentlyCompletedItem_3OC7i {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.marketingmessages_MarketingMessage_28UlE {
+  border-radius: 20px;
+  overflow: hidden;
+}
 
-/* Exceptions */
+/* Trending among friends is annoying to mess with outlines with, sorry if this is confusing lol */
+.gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ {
+  height: 30px;
+  border-radius: 0px 0px 20px 20px;
+}
 .gamecapsule_GameCapsule_fXdhj
   > .libraryassetimage_GreyBackground_2E7G8
   > img.libraryassetimage_Image_24_Au.libraryassetimage_Visibility_3d_bT.libraryassetimage_Visible_yDr03 {
   border-radius: 0px;
+}
+.gamecapsule_GameCapsule_fXdhj > .libraryassetimage_GreyBackground_2E7G8 {
+  border-radius: 20px 20px 0px 0px;
+  overflow: hidden;
+}
+.gamecapsule_GameCapsule_fXdhj {
+  background-color: #00000000;
+}
+.gamecapsule_Friends_3gKVI {
+  margin-left: 10px;
 }
