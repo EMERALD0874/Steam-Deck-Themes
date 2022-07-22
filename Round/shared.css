@@ -85,3 +85,34 @@
   border-radius: 20px;
   overflow: hidden;
 }
+
+/* Game details */
+.BasicUI .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
+  border-radius: 20px;
+}
+.BasicUI
+  .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
+  border-radius: 20px;
+}
+.BasicUI .spotlightgameplaysummary_SummaryAchievement_qBmIH {
+  border-radius: 20px;
+}
+.posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2 {
+  border-radius: 20px;
+}
+.appdetailsachievementssection_AchievementCarouselItem_mbFSn.appdetailsachievementssection_Detailed_3KGi6 {
+  border-radius: 20px;
+}
+.BasicUI .appdetailscommunityfeed_CommunityItem_3QS6O {
+  border-radius: 20px;
+}
+.appdetailscommunityfeed_ArtItem_1aP1b {
+  border-radius: 20px 20px 0px 0px;
+}
+.appdetailsgameinfopanel_DeckVerifiedInfo_IIJei
+  .appdetailsgameinfopanel_Details_3sfpA {
+  border-radius: 20px;
+}
+.BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w {
+  border-radius: 20px;
+}

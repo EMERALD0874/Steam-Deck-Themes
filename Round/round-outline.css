@@ -36,12 +36,12 @@
   border: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 22px;
   margin: -2px;
-  animation: focusring_growOutline_Z3LxS 0.4s ease,
-    focusring_fadeOutline_2hZu3 0.4s ease,
-    focusring_blinker_3wFMM 1.2s ease-in-out 0.4s 20;
+  animation: focusring_growOutline_Z3LxS_alt 0.4s ease,
+    focusring_fadeOutline_2hZu3_alt 0.4s ease,
+    focusring_blinker_3wFMM_alt 1.2s ease-in-out 0.4s 20;
 }
 
-@keyframes focusring_growOutline_Z3LxS {
+@keyframes focusring_growOutline_Z3LxS_alt {
   0% {
     border: 12px solid;
     margin: -12px;
@@ -53,7 +53,7 @@
     border-radius: 22px;
   }
 }
-@keyframes focusring_fadeOutline_2hZu3 {
+@keyframes focusring_fadeOutline_2hZu3_alt {
   0% {
     border-color: rgba(255, 255, 255, 0);
   }
@@ -61,8 +61,22 @@
     border-color: rgba(255, 255, 255, 0.6);
   }
 }
-@keyframes focusring_blinker_3wFMM {
+@keyframes focusring_blinker_3wFMM_alt {
   50% {
     border: 2px solid rgba(255, 255, 255, 0.24);
   }
+}
+
+/* exceptions */
+.BasicUI
+  .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI
+  > .focusring_FocusRingRoot_3PH_X
+  > .focusring_FocusRing_1IZrQ {
+  border: none;
+  outline: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 0px;
+  margin: 0px;
+  animation: focusring_growOutline_Z3LxS 0.4s ease,
+    focusring_fadeOutline_2hZu3 0.4s ease,
+    focusring_blinker_3wFMM 1.2s ease-in-out 0.4s 20;
 }
