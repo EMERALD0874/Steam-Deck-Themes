@@ -4,6 +4,21 @@
   "target": "System-Wide",
   "version": "1.0",
   "inject": {
-    "shared.css": ["SP"]
+    "background.css": ["SP"]
+  },
+  "patches": {
+    "Installation": {
+      "default": "All",
+      "All": {
+        "center-recents.css": ["SP"],
+        "colors.css": ["SP", "MainMenu", "QuickAccess"],
+        "round.css": ["SP"],
+        "round-outline.css": ["SP"]
+      },
+      "Only colors and fonts": {
+        "colors.css": ["SP", "MainMenu", "QuickAccess"]
+      },
+      "Only background": {}
+    }
   }
 }
