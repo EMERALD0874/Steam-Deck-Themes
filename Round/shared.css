@@ -1,3 +1,20 @@
+/* General */
+.DialogInput_Wrapper {
+  border-radius: 20px;
+}
+button.gamepaddialog_Button_1kn70.DialogButton,
+button.gamepaddialog_Button_1kn70.DialogButton.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton:enabled,
+button.gamepaddialog_Button_1kn70.DialogButton:enabled.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton:active,
+button.gamepaddialog_Button_1kn70.DialogButton:active.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton:hover,
+button.gamepaddialog_Button_1kn70.DialogButton:hover.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover,
+button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
+  border-radius: 20px;
+}
+
 /* Recent games and library */
 .libraryassetimage_Image_24_Au {
   border-radius: 20px;
@@ -17,6 +34,21 @@
 .BasicUI .allcollections_Collection_3IWn- {
   border-radius: 20px;
   overflow: hidden; /* This is to prevent the collection image from overflowing the collection box */
+}
+.steamdeckcompatfilter_CompatFilterDialog_21qvB {
+  border-radius: 20px;
+}
+.BasicUI
+  .appfilterpane_Container_170Np
+  .appfilterpane_FilterArea_1ennW
+  .appfilterpane_FilterBucket_1axoi {
+  border-radius: 20px;
+}
+.appportrait_AppPortraitBanner_N8aJr {
+  border-radius: 20px;
+}
+.gamepadlibrary_AppGridFilterHeader_eGFYo {
+  border-radius: 20px;
 }
 
 /* What's new */
@@ -61,6 +93,9 @@
 }
 .gamecapsule_Friends_3gKVI {
   margin-left: 10px;
+}
+.gamecapsule_InLibrary_fyHna {
+  border-radius: 20px;
 }
 
 /* Friends */
@@ -128,5 +163,35 @@
   border-radius: 20px;
 }
 .BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w {
+  border-radius: 20px;
+}
+.basicappdetailssectionstyler_DeckVerifiedFeedbackConfirmationContainer_3G0l_,
+.basicappdetailssectionstyler_DeckVerifiedFeedbackContainer_3Y8xV {
+  border-radius: 20px;
+}
+.basicappdetailssectionstyler_DeckVerifiedFeedbackConfirmationContainer_3G0l_
+  .basicappdetailssectionstyler_DeckVerifiedFeedbackButton_2F-oC,
+.basicappdetailssectionstyler_DeckVerifiedFeedbackContainer_3Y8xV
+  .basicappdetailssectionstyler_DeckVerifiedFeedbackButton_2F-oC {
+  border-radius: 20px;
+}
+.BasicUI .appdetailssection_Highlight_38t1m {
+  border-radius: 20px 20px 0 0;
+}
+.appdetailsactivitysection_NoActivity_2-kDc,
+.appdetailsactivitysection_Loading_3UShz {
+  border-radius: 20px;
+}
+
+/* Media */
+.mediapage_ImageContainer_120HU {
+  border-radius: 20px;
+}
+.mediapage_Screenshot_3Qh8h {
+  border-radius: 20px;
+}
+
+/* Downloads */
+.downloads_SectionItem_1VNuY {
   border-radius: 20px;
 }
