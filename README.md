@@ -1,6 +1,6 @@
 # Steam Deck Themes
 
-This repository contains various themes that I created for use with [suchmememanyskill's Steam Deck CSS loader](https://github.com/suchmememanyskill/SDH-CssLoader).
+This repository contains various themes that I created for use with [suchmememanyskill's Steam Deck CSS loader](https://github.com/suchmememanyskill/SDH-CssLoader). Many of these themes are smaller components that can be built upon, such as a centered home screen. Please feel free to use my work as a part of your own themes. Attribution is always appreciated but not required.
 
 ## Installation
 
