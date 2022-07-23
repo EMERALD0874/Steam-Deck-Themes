@@ -1,6 +1,7 @@
 {
   "name": "Round",
   "author": "EMERALD#0874",
+  "target": "System-Wide",
   "version": "1.0",
   "inject": {
     "shared.css": ["SP"]
