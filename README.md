@@ -18,6 +18,14 @@ This repository contains various themes that I created for use with [suchmememan
 
 Below are previews and brief descriptions for each theme.
 
+### Centered Home
+
+This theme makes the recent games section take up the full screen and centers it vertically. Options are provided for hiding and showing the header as well as whether
+or not to consider the title of the game when centering vertically (assuming the header is hidden). I recommend using this with the Static Background theme by SuchMeme
+pictured below.
+
+![Centered Home theme](./centered-home-preview.jpg)
+
 ### Obsidian
 
 This theme is based off of pure black themes commonly created for AMOLED devices. Although the Steam Deck has an LCD screen, I find the darker colors easier on my eyes
