@@ -1,0 +1,87 @@
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 22px;
+  margin: -2px;
+}
+
+@keyframes appportrait_growOutline_3wk3d {
+  0% {
+    border: 12px solid;
+    margin: -12px;
+    border-radius: 30px;
+  }
+  100% {
+    border: 2px solid;
+    margin: -2px;
+    border-radius: 22px;
+  }
+}
+@keyframes appportrait_fadeOutline_1FLuV {
+  0% {
+    border-color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+}
+@keyframes appportrait_blinker_2tSbN {
+  50% {
+    border: 2px solid rgba(255, 255, 255, 0.24);
+  }
+}
+
+.focusring_FocusRing_1IZrQ {
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 22px;
+  margin: -2px;
+  animation: focusring_growOutline_Z3LxS_alt 0.4s ease,
+    focusring_fadeOutline_2hZu3_alt 0.4s ease,
+    focusring_blinker_3wFMM_alt 1.2s ease-in-out 0.4s 20;
+}
+
+@keyframes focusring_growOutline_Z3LxS_alt {
+  0% {
+    border: 12px solid;
+    margin: -12px;
+    border-radius: 30px;
+  }
+  100% {
+    border: 2px solid;
+    margin: -2px;
+    border-radius: 22px;
+  }
+}
+@keyframes focusring_fadeOutline_2hZu3_alt {
+  0% {
+    border-color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+}
+@keyframes focusring_blinker_3wFMM_alt {
+  50% {
+    border: 2px solid rgba(255, 255, 255, 0.24);
+  }
+}
+
+/* exceptions */
+.BasicUI
+  .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI
+  > .focusring_FocusRingRoot_3PH_X
+  > .focusring_FocusRing_1IZrQ,
+.appactivityday_NoCommentSupport_2CB_R
+  > .appactivityday_EventBody_NEMXh
+  > .Panel
+  > .focusring_FocusRingRoot_3PH_X
+  > .focusring_FocusRing_1IZrQ {
+  border: none;
+  outline: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 0px;
+  margin: 0px;
+  animation: focusring_growOutline_Z3LxS 0.4s ease,
+    focusring_fadeOutline_2hZu3 0.4s ease,
+    focusring_blinker_3wFMM 1.2s ease-in-out 0.4s 20;
+}
