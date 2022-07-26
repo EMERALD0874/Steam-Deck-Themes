@@ -12,13 +12,22 @@
       "All": {
         "center-recents.css": ["SP"],
         "colors.css": ["SP", "MainMenu", "QuickAccess"],
+        "fonts.css": ["SP", "MainMenu", "QuickAccess"],
         "round.css": ["SP"],
         "round-outline.css": ["SP"]
       },
       "Only colors and fonts": {
-        "colors.css": ["SP", "MainMenu", "QuickAccess"]
+        "colors.css": ["SP", "MainMenu", "QuickAccess"],
+        "fonts.css": ["SP", "MainMenu", "QuickAccess"]
       },
       "Only background": {}
+    },
+    "Offline Mode": {
+      "default": "Disabled",
+      "Enabled (drains battery)": {
+        "offline.css": ["SP", "MainMenu", "QuickAccess"]
+      },
+      "Disabled": {}
     }
   }
 }
