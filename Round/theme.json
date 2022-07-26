@@ -4,14 +4,14 @@
   "target": "System-Wide",
   "version": "1.1",
   "inject": {
-    "shared.css": ["SP"]
+    "shared.css": ["SP", "MainMenu", "QuickAccess"]
   },
   "patches": {
     "Outlines": {
       "default": "Round",
-      "Round": { "round-outline.css": ["SP"] },
+      "Round": { "round-outline.css": ["SP", "MainMenu", "QuickAccess"] },
       "Square": {},
-      "Hidden": { "hide-outline.css": ["SP"] }
+      "Hidden": { "hide-outline.css": ["SP", "MainMenu", "QuickAccess"] }
     }
   }
 }
