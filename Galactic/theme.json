@@ -24,7 +24,7 @@
     },
     "Offline Mode": {
       "default": "Disabled",
-      "Enabled (drains battery)": {
+      "Enabled (static background)": {
         "offline.css": ["SP", "MainMenu", "QuickAccess"]
       },
       "Disabled": {}
