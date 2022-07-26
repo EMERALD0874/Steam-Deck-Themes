@@ -13,11 +13,6 @@ HOME PAGE
 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
   filter: grayscale(1);
 }
-/* Remove hovered game glow */
-.gpfocuswithin ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
-:hover ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
-  opacity: 0;
-}
 /* Turn backgrounds black */
 .gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
   background: var(--obsidian-main-color) !important;

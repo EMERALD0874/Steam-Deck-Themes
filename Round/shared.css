@@ -1,6 +1,7 @@
 /* General */
 .DialogInput_Wrapper {
   border-radius: 20px;
+  overflow: hidden;
 }
 button.gamepaddialog_Button_1kn70.DialogButton,
 button.gamepaddialog_Button_1kn70.DialogButton.Primary,
@@ -12,6 +13,10 @@ button.gamepaddialog_Button_1kn70.DialogButton:hover,
 button.gamepaddialog_Button_1kn70.DialogButton:hover.Primary,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
+  border-radius: 20px;
+}
+.ModalPosition_Content
+  > div:not(.ModalPosition_TopBar):not(.ModalPosition_Dismiss) {
   border-radius: 20px;
 }
 
@@ -182,6 +187,9 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
 .appdetailsactivitysection_Loading_3UShz {
   border-radius: 20px;
 }
+.appdetailsgameinfopanel_DeckVerifiedInfo_IIJei {
+  border-radius: 20px;
+}
 
 /* Media */
 .mediapage_ImageContainer_120HU {
@@ -194,4 +202,11 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
 /* Downloads */
 .downloads_SectionItem_1VNuY {
   border-radius: 20px;
+}
+
+/* Mods */
+.CssLoader_ThemeBrowser_SingleItem_BgImage,
+.CssLoader_ThemeBrowser_SingleItem_BgOverlay {
+  border-radius: 20px !important;
+  overflow: hidden;
 }
