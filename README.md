@@ -14,9 +14,21 @@ This repository contains various themes that I created for use with [suchmememan
 1. Select Return to Gaming Mode on the desktop.
 1. Open the CSS Loader plugin and enable your desired theme(s).
 
+## Theme Packs
+
+Below are previews and brief descriptions for each theme pack. These are large themes that contain a variety of changes to overhaul the entire Steam Deck interface.
+
+### Galactic
+
+This theme is intended to be a rounded, clean, and modern look while still providing eye candy when looking at the recent games. This was my first theme pack and my
+first attempt at learning a variety of new CSS changes such as fonts and backgrounds that work on the go.
+
+![Galactic theme pack](./galactic-preview.jpg)
+
 ## Themes
 
-Below are previews and brief descriptions for each theme.
+Below are previews and brief descriptions for each theme. These are generally smaller themes that are meant to be combined with other themes or used on their own to
+provide minimal changes to the Steam Deck interface.
 
 ### Centered Home
 

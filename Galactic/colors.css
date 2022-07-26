@@ -1,5 +1,7 @@
+/* Taken from Obsidian */
+
 :root {
-  --obsidian-main-color: #000;
+  --obsidian-main-color: #111;
   --obsidian-button-glow: #ffffff90;
 }
 
@@ -10,11 +12,6 @@ HOME PAGE
 /* Turn the header art to grayscale */
 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
   filter: grayscale(1);
-}
-/* Remove hovered game glow */
-.gpfocuswithin ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
-:hover ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
-  opacity: 0;
 }
 /* Turn backgrounds black */
 .gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {

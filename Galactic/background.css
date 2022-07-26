@@ -1,0 +1,26 @@
+/* Recent games background */
+:root {
+  --static-background: url("https://i.imgur.com/t1Z42aW.gif");
+}
+.gamepadhome_RecentSection_39tNv.Panel.Focusable {
+  top: 0;
+  background-image: var(--static-background);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gamepadhomerecentgames_RecentGamesContainer_2_cRk {
+  backdrop-filter: blur(2px);
+}
+.gamepadhomerecentgames_RecentGamesBackgroundContainer_QNkOt > * {
+  display: none;
+}
+.gpfocuswithin ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
+:hover ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
+  opacity: 0.25;
+}
+.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
+  width: 50px;
+  height: 32px;
+  filter: saturate(1) brightness(200%) blur(3px);
+  transform: translateY(-199%) translateX(56px) scaleX(22) scaleY(7);
+}
