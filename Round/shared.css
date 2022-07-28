@@ -43,6 +43,15 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
 .steamdeckcompatfilter_CompatFilterDialog_21qvB {
   border-radius: 20px;
 }
+.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:nth-child(1) {
+  border-radius: 20px 20px 0px 0px;
+}
+.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:nth-child(4) {
+    border-radius: 0px 0px 20px 20px;
+}
+.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:last-child {
+    border-radius: 20px;
+}
 .BasicUI
   .appfilterpane_Container_170Np
   .appfilterpane_FilterArea_1ennW
@@ -236,10 +245,17 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
   border-radius: 20px !important;
 }
 
-.controllerconfigurator_interstitial_ControlLabel_tGJeF {
+.controllerconfigurator_interstitial_ControlLabel_tGJeF,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN, /* This is selecting a controller layout */
+.controllerconfigurator_CommunityConfigsCallout_1xfC8  {
   border-radius: 20px;
 }
 
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_TopGapSmall_2evqi {
   margin-top: 0px !important;
+}
+
+/* Options Container */
+.basiccontextmenu_contextMenuContents_TBSbv {
+  border-radius: 20px;
 }
