@@ -8,6 +8,9 @@
     "Font": {
       "default": "None",
       "None": {},
+      "Montserrat": {
+        "montserrat.css": ["SP", "MainMenu", "QuickAccess"]
+      },
       "Optima Nova": {
         "optima-nova.css": ["SP", "MainMenu", "QuickAccess"]
       },
