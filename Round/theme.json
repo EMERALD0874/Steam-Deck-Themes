@@ -2,7 +2,7 @@
   "name": "Round",
   "author": "EMERALD#0874",
   "target": "System-Wide",
-  "version": "1.1",
+  "version": "1.2",
   "inject": {
     "shared.css": ["SP", "MainMenu", "QuickAccess"]
   },
