@@ -79,6 +79,7 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
   border-radius: 20px;
   overflow: hidden;
 }
+
 /* Trending among friends (annoying to mess with outlines with, sorry if this is confusing lol) */
 .gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ {
   height: 30px;
@@ -209,4 +210,36 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
 .CssLoader_ThemeBrowser_SingleItem_BgOverlay {
   border-radius: 20px !important;
   overflow: hidden;
+}
+
+/* Main-Menu Guides */
+.overlayguides_GuideListItemBase_1etIu {
+  border-radius: 20px;
+}
+
+/* Main-Menu Achievements */
+.mainmenuapprunning_OverlayAchievements_2Qced .achievementslist_AchievementListItemBase_2Kmn7,
+.mainmenuapprunning_OverlayAchievements_2Qced .achievementslist_GlobalAchievementListItem_316Uo,
+.mainmenuapprunning_OverlayAchievements_2Qced .achievementslist_AchievementList_1UXC2,
+.mainmenuapprunning_OverlayAchievements_2Qced .achievementsheader_StatsBlock__gDkI  {
+  border-radius: 20px;
+}
+
+/* Exit Game Dialog */
+.gamepaddialog_GamepadDialogContent_3joNk {
+  border-radius: 20px;
+}
+
+/* Settings */
+.DialogCheckbox_Container,
+.gamepadslider_EditableValue_2DXnl  {
+  border-radius: 20px !important;
+}
+
+.controllerconfigurator_interstitial_ControlLabel_tGJeF {
+  border-radius: 20px;
+}
+
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_TopGapSmall_2evqi {
+  margin-top: 0px !important;
 }
