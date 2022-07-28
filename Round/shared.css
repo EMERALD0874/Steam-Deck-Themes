@@ -12,7 +12,8 @@ button.gamepaddialog_Button_1kn70.DialogButton:active.Primary,
 button.gamepaddialog_Button_1kn70.DialogButton:hover,
 button.gamepaddialog_Button_1kn70.DialogButton:hover.Primary,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover,
-button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
+button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary,
+div.basiccontextmenu_contextMenuContents_TBSbv  {
   border-radius: 20px;
 }
 .ModalPosition_Content
@@ -51,6 +52,9 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
 }
 .steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:last-child {
     border-radius: 20px;
+}
+.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:nth-of-type(1):nth-last-child(3) {
+  border-radius: 20px !important;
 }
 .BasicUI
   .appfilterpane_Container_170Np
@@ -152,6 +156,10 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
 .gamepadsearch_ResultTemplateImage_3K3Bx {
   border-radius: 20px;
   overflow: hidden;
+}
+.FriendPickerFriendList,
+.FriendPickerFriendList._DialogInputContainer {
+  border-radius: 20px;
 }
 
 /* Game details */
@@ -255,11 +263,31 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
   border-radius: 20px;
 }
 
-.appproperties_AppProperties_1FyBL .DialogBody .appproperties_TopGapSmall_2evqi {
+.appproperties_AppProperties_1FyBL .DialogBody 
+.appproperties_TopGapSmall_2evqi {
   margin-top: 0px !important;
 }
 
 /* Options Container */
-.basiccontextmenu_contextMenuContents_TBSbv {
+.basiccontextmenu_contextMenuContents_TBSbv 
+  .Play.basiccontextmenu_contextMenuItem_3PqLg:nth-child(1),
+.basiccontextmenu_contextMenuContents_TBSbv 
+  .Install.basiccontextmenu_contextMenuItem_3PqLg:nth-child(1) {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.basiccontextmenu_contextMenuContents_TBSbv 
+  .Play ~ .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5),
+.basiccontextmenu_contextMenuContents_TBSbv 
+  .Install ~ .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5) {
+  border-radius: 0px 0px 20px 20px;
+}
+
+.Play
+  ~ .basiccontextmenu_ContextMenuSeparator_zVMb1
+  + .basiccontextmenu_contextMenuItem_3PqLg,
+.Install
+  ~ .basiccontextmenu_ContextMenuSeparator_zVMb1
+  + .basiccontextmenu_contextMenuItem_3PqLg {
   border-radius: 20px;
 }
