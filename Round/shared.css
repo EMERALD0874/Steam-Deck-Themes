@@ -149,6 +149,10 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
   border-radius: 20px;
   overflow: hidden;
 }
+.gamepadsearch_ResultTemplateImage_3K3Bx {
+  border-radius: 20px;
+  overflow: hidden;
+}
 
 /* Game details */
 .BasicUI .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
