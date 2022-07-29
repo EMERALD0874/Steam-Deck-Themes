@@ -6,27 +6,28 @@ This repository contains various themes that I created for use with [suchmememan
 ## Installation
 
 1. Install the [Steam Deck plugin loader](https://github.com/SteamDeckHomebrew/decky-loader). `The pre-release is recommended at the time of this guide being written.`
-2. Open the Plugins section in the Quick Access menu.
-3. Open the [Plugin Store](https://beta.deckbrew.xyz/) using the shopping bag icon in the top-right corner.
-4. Install [suchmememanyskill/SDH-CssLoader](https://github.com/suchmememanyskill/SDH-CssLoader).
+1. Open the Plugins section in the Quick Access menu.
+1. Open the [Plugin Store](https://beta.deckbrew.xyz/) using the shopping bag icon in the top-right corner.
+1. Install [suchmememanyskill/SDH-CssLoader](https://github.com/suchmememanyskill/SDH-CssLoader).
+2. Choose a theme installation method below.
 
 ### Option 1: Manually Adding Themes
-5. Hold the power button and select Switch to Desktop.
-6. Navigate to `/home/deck/homebrew/themes`.
-7. Copy the folder(s) from this repository (ex. Obsidian) into the themes folder.
-8. Select Return to Gaming Mode on the desktop.
-9. Again, open the Plugins section in the Quick Access menu.
-10. Navigate to the Css Loader tab
-11. Open the CSS Loader plugin and enable your desired theme(s).
+1. Hold the power button and select Switch to Desktop.
+1. Navigate to `/home/deck/homebrew/themes`.
+1. Copy the folder(s) from this repository (ex. Obsidian) into the themes folder.
+1. Select Return to Gaming Mode on the desktop.
+1. Open the Plugins section in the Quick Access menu.
+1. Open the CSS Loader plugin.
+1. Enable your installed theme(s).
 
 ### Option 2: Using the Theme Data Base
-5. Again, open the Plugins section in the Quick Access menu.
-10. Open the CSS Loader plugin
-7. Select "Manage Themes"
-8. Search for the theme you want to install
-9.  Press install
-5. Again, open the Plugins section in the Quick Access menu.
-10. Open the CSS Loader plugin and enable your desired theme(s).
+1. Open the Plugins section in the Quick Access menu.
+1. Open the CSS Loader plugin.
+1. Select Manage Themes.
+1. Search for the theme you want to install.
+1. Press install.
+1. Return to the CSS Loader plugin.
+1. Enable your desired theme(s).
    
 ## Theme Packs
 
