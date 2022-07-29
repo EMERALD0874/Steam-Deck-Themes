@@ -1,7 +1,7 @@
 {
   "name": "Fonts",
   "author": "EMERALD#0874",
-  "version": "1.0",
+  "version": "v1.0",
   "inject": {},
   "target": "System-Wide",
   "patches": {

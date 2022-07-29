@@ -2,7 +2,7 @@
   "name": "Galactic",
   "author": "EMERALD#0874",
   "target": "System-Wide",
-  "version": "1.1",
+  "version": "v1.1",
   "inject": {
     "background.css": ["SP"]
   },

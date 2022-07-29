@@ -2,7 +2,7 @@
   "name": "Centered Home",
   "author": "EMERALD#0874",
   "target": "Home",
-  "version": "1.0",
+  "version": "v1.0",
   "inject": { "shared.css": ["SP"] },
   "patches": {
     "Hide Header": {
