@@ -52,6 +52,13 @@ pictured below.
 
 ![Centered Home theme](./centered-home-preview.jpg)
 
+### Fonts
+
+This theme adds a variety of fonts and control over capitalization to the Steam Deck. Fonts used in any of my other themes as well as certain unique fonts are available
+through this theme. Additional fonts can be contributed through a pull request. Pictured below is Roboto with standard capitalization enforced.
+
+![Fonts preview](./fonts-preview.jpg)
+
 ### Obsidian
 
 This theme is based off of pure black themes commonly created for AMOLED devices. Although the Steam Deck has an LCD screen, I find the darker colors easier on my eyes

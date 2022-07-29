@@ -1,0 +1,32 @@
+{
+  "name": "Fonts",
+  "author": "EMERALD#0874",
+  "version": "1.0",
+  "inject": {},
+  "target": "System-Wide",
+  "patches": {
+    "Font": {
+      "default": "None",
+      "None": {},
+      "Montserrat": {
+        "montserrat.css": ["SP", "MainMenu", "QuickAccess"]
+      },
+      "Optima Nova": {
+        "optima-nova.css": ["SP", "MainMenu", "QuickAccess"]
+      },
+      "Roboto": {
+        "roboto.css": ["SP", "MainMenu", "QuickAccess"]
+      }
+    },
+    "Text Transform": {
+      "default": "None",
+      "None": {},
+      "Standard Case": {
+        "standard-case.css": ["SP", "MainMenu", "QuickAccess"]
+      },
+      "Uppercase": {
+        "uppercase.css": ["SP", "MainMenu", "QuickAccess"]
+      }
+    }
+  }
+}
