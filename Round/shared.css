@@ -277,9 +277,11 @@ div.basiccontextmenu_contextMenuContents_TBSbv  {
 }
 
 .basiccontextmenu_contextMenuContents_TBSbv 
-  .Play ~ .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5),
+  .Play 
+  ~ .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5),
 .basiccontextmenu_contextMenuContents_TBSbv 
-  .Install ~ .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5),
+  .Install 
+  ~ .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5),
 .basiccontextmenu_contextMenuContents_TBSbv 
   .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5):nth-child(5),
 .basiccontextmenu_contextMenuContents_TBSbv 
