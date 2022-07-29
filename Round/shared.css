@@ -1,5 +1,5 @@
 /* General */
-.DialogInput_Wrapper {
+.DialogInput {
   border-radius: 20px;
   overflow: hidden;
 }
@@ -12,7 +12,8 @@ button.gamepaddialog_Button_1kn70.DialogButton:active.Primary,
 button.gamepaddialog_Button_1kn70.DialogButton:hover,
 button.gamepaddialog_Button_1kn70.DialogButton:hover.Primary,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover,
-button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
+button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary,
+div.basiccontextmenu_contextMenuContents_TBSbv {
   border-radius: 20px;
 }
 .ModalPosition_Content
@@ -43,6 +44,18 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
 .steamdeckcompatfilter_CompatFilterDialog_21qvB {
   border-radius: 20px;
 }
+.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:nth-child(1) {
+  border-radius: 20px 20px 0px 0px;
+}
+.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:nth-child(4) {
+  border-radius: 0px 0px 20px 20px;
+}
+.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:last-child {
+  border-radius: 20px;
+}
+.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:nth-of-type(1):nth-last-child(3) {
+  border-radius: 20px !important;
+}
 .BasicUI
   .appfilterpane_Container_170Np
   .appfilterpane_FilterArea_1ennW
@@ -53,6 +66,9 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
   border-radius: 20px;
 }
 .gamepadlibrary_AppGridFilterHeader_eGFYo {
+  border-radius: 20px;
+}
+.basicgamecarousel_TextBoxCarouselContents_3bvCH {
   border-radius: 20px;
 }
 
@@ -140,6 +156,14 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
   border-radius: 20px;
   overflow: hidden;
 }
+.gamepadsearch_ResultTemplateImage_3K3Bx {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.FriendPickerFriendList,
+.FriendPickerFriendList._DialogInputContainer {
+  border-radius: 20px;
+}
 
 /* Game details */
 .BasicUI .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
@@ -218,10 +242,14 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
 }
 
 /* Main-Menu Achievements */
-.mainmenuapprunning_OverlayAchievements_2Qced .achievementslist_AchievementListItemBase_2Kmn7,
-.mainmenuapprunning_OverlayAchievements_2Qced .achievementslist_GlobalAchievementListItem_316Uo,
-.mainmenuapprunning_OverlayAchievements_2Qced .achievementslist_AchievementList_1UXC2,
-.mainmenuapprunning_OverlayAchievements_2Qced .achievementsheader_StatsBlock__gDkI  {
+.mainmenuapprunning_OverlayAchievements_2Qced
+  .achievementslist_AchievementListItemBase_2Kmn7,
+.mainmenuapprunning_OverlayAchievements_2Qced
+  .achievementslist_GlobalAchievementListItem_316Uo,
+.mainmenuapprunning_OverlayAchievements_2Qced
+  .achievementslist_AchievementList_1UXC2,
+.mainmenuapprunning_OverlayAchievements_2Qced
+  .achievementsheader_StatsBlock__gDkI {
   border-radius: 20px;
 }
 
@@ -232,14 +260,44 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
 
 /* Settings */
 .DialogCheckbox_Container,
-.gamepadslider_EditableValue_2DXnl  {
+.gamepadslider_EditableValue_2DXnl {
   border-radius: 20px !important;
 }
 
-.controllerconfigurator_interstitial_ControlLabel_tGJeF {
+.controllerconfigurator_interstitial_ControlLabel_tGJeF,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN, /* This is selecting a controller layout */
+.controllerconfigurator_CommunityConfigsCallout_1xfC8 {
   border-radius: 20px;
 }
 
-.appproperties_AppProperties_1FyBL .DialogBody .appproperties_TopGapSmall_2evqi {
+.appproperties_AppProperties_1FyBL
+  .DialogBody
+  .appproperties_TopGapSmall_2evqi {
   margin-top: 0px !important;
+}
+
+/* Options Container */
+.basiccontextmenu_contextMenuContents_TBSbv
+  .Play.basiccontextmenu_contextMenuItem_3PqLg:nth-child(1),
+.basiccontextmenu_contextMenuContents_TBSbv
+  .Install.basiccontextmenu_contextMenuItem_3PqLg:nth-child(1) {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.basiccontextmenu_contextMenuContents_TBSbv
+  .Play
+  ~ .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5),
+.basiccontextmenu_contextMenuContents_TBSbv
+  .Install
+  ~ .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5) {
+  border-radius: 0px 0px 20px 20px;
+}
+
+.Play
+  ~ .basiccontextmenu_ContextMenuSeparator_zVMb1
+  + .basiccontextmenu_contextMenuItem_3PqLg,
+.Install
+  ~ .basiccontextmenu_ContextMenuSeparator_zVMb1
+  + .basiccontextmenu_contextMenuItem_3PqLg {
+  border-radius: 20px;
 }
