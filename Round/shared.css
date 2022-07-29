@@ -247,7 +247,7 @@ div.basiccontextmenu_contextMenuContents_TBSbv  {
 }
 
 /* Exit Game Dialog */
-.gamepaddialog_GamepadDialogContent_3joNk {
+.gamepaddialog_GamepadDialogContent_3joNk:not(.gamepadpagedsettings_PagedSettingsDialog_PageContent_wIOLO) {
   border-radius: 20px;
 }
 
