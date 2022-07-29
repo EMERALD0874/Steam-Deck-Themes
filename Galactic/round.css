@@ -254,7 +254,7 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
 }
 
 /* Exit Game Dialog */
-.gamepaddialog_GamepadDialogContent_3joNk {
+.gamepaddialog_GamepadDialogContent_3joNk:not(.gamepadpagedsettings_PagedSettingsDialog_PageContent_wIOLO) {
   border-radius: 20px;
 }
 
@@ -289,7 +289,11 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
   ~ .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5),
 .basiccontextmenu_contextMenuContents_TBSbv
   .Install
-  ~ .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5) {
+  ~ .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5),
+.basiccontextmenu_contextMenuContents_TBSbv
+  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5):nth-child(5),
+.basiccontextmenu_contextMenuContents_TBSbv
+  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5):nth-child(4) {
   border-radius: 0px 0px 20px 20px;
 }
 
@@ -298,6 +302,14 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
   + .basiccontextmenu_contextMenuItem_3PqLg,
 .Install
   ~ .basiccontextmenu_ContextMenuSeparator_zVMb1
-  + .basiccontextmenu_contextMenuItem_3PqLg {
+  + .basiccontextmenu_contextMenuItem_3PqLg,
+.basiccontextmenu_ContextMenuSeparator_zVMb1
+  + .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(3):nth-child(7),
+.basiccontextmenu_ContextMenuSeparator_zVMb1
+  + .basiccontextmenu_contextMenuItem_3PqLg:last-child:nth-child(9),
+.basiccontextmenu_ContextMenuSeparator_zVMb1
+  + .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(3):nth-child(6),
+.basiccontextmenu_ContextMenuSeparator_zVMb1
+  + .basiccontextmenu_contextMenuItem_3PqLg:last-child:nth-child(8) {
   border-radius: 20px;
 }
