@@ -305,7 +305,7 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
   .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(1),
 .basiccontextmenu_contextMenuContents_TBSbv:first-child.basiccontextmenu_hasSubMenu_1Mql2
   .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(2) {
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px;
 }
 
 .basiccontextmenu_contextMenuContents_TBSbv:first-child:not(.basiccontextmenu_hasSubMenu_1Mql2)
