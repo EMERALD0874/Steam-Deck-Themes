@@ -315,10 +315,10 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
   border-radius: 0px 0px 20px 20px;
 }
 
-.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX {
+.BasicUI .appactionbutton_ButtonChild_2AzIX {
   overflow: hidden;
 }
-.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:focus:focus::after {
+.BasicUI .appactionbutton_ButtonChild_2AzIX.Focusable:focus:focus::after {
   transform: scaleX(1.1);
 }
 
