@@ -280,9 +280,7 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
 .basiccontextmenu_contextMenuContents_TBSbv
   .Play.basiccontextmenu_contextMenuItem_3PqLg:nth-child(1),
 .basiccontextmenu_contextMenuContents_TBSbv
-  .Install.basiccontextmenu_contextMenuItem_3PqLg:nth-child(1),
-.basiccontextmenu_contextMenuContents_TBSbv
-  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5):nth-child(5)[tone="destructive"] {
+  .Install.basiccontextmenu_contextMenuItem_3PqLg:nth-child(1) {
   border-radius: 20px 20px 0px 0px;
 }
 
@@ -293,13 +291,9 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
   .Install
   ~ .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5),
 .basiccontextmenu_contextMenuContents_TBSbv
-  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5):nth-child(5):not([tone="destructive"]),
+  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5):nth-child(5),
 .basiccontextmenu_contextMenuContents_TBSbv
-  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5):nth-child(4),
-.basiccontextmenu_contextMenuContents_TBSbv
-  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(7):nth-child(3)[tone="destructive"],
-.basiccontextmenu_contextMenuContents_TBSbv
-  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(3):nth-child(7)[tone="destructive"] {
+  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5):nth-child(4) {
   border-radius: 0px 0px 20px 20px;
 }
 

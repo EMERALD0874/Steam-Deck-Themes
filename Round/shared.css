@@ -286,30 +286,32 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
   margin-top: 0px !important;
 }
 
-/* Options Container */
-.basiccontextmenu_contextMenuContents_TBSbv
-  .Play.basiccontextmenu_contextMenuItem_3PqLg:nth-child(1),
-.basiccontextmenu_contextMenuContents_TBSbv
-  .Install.basiccontextmenu_contextMenuItem_3PqLg:nth-child(1),
-.basiccontextmenu_contextMenuContents_TBSbv 
-  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5):nth-child(5)[tone="destructive"] {
-  border-radius: 20px 20px 0px 0px;
+/* Options Container  */
+/* 
+  The majority of styles in this section were removed due to each container 
+  lacking the specificity needed to properly style them
+*/
+.basiccontextmenu_contextMenuContents_TBSbv:first-child
+  .basiccontextmenu_ContextMenuSeparator_zVMb1 {
+  /* 
+    This is here as sometimes the menu separators get stuck at 0px height and you can't change it with css
+    so instead of relying on the height property, we use padding. 
+  */
+  height: 0px;
+  padding-top: 2px;
 }
 
-.basiccontextmenu_contextMenuContents_TBSbv 
-  .Play 
-  ~ .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5),
-.basiccontextmenu_contextMenuContents_TBSbv 
-  .Install 
-  ~ .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5),
-.basiccontextmenu_contextMenuContents_TBSbv 
-  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5):nth-child(5):not([tone="destructive"]),
-.basiccontextmenu_contextMenuContents_TBSbv 
-  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(5):nth-child(4),
-.basiccontextmenu_contextMenuContents_TBSbv
-  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(7):nth-child(3)[tone="destructive"],
-.basiccontextmenu_contextMenuContents_TBSbv
-  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(3):nth-child(7)[tone="destructive"] {
+.basiccontextmenu_contextMenuContents_TBSbv:first-child:not(.basiccontextmenu_hasSubMenu_1Mql2)
+  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(1),
+.basiccontextmenu_contextMenuContents_TBSbv:first-child.basiccontextmenu_hasSubMenu_1Mql2
+  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(2) {
+  border-radius: 20px;
+}
+
+.basiccontextmenu_contextMenuContents_TBSbv:first-child:not(.basiccontextmenu_hasSubMenu_1Mql2)
+  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(3),
+.basiccontextmenu_contextMenuContents_TBSbv:first-child.basiccontextmenu_hasSubMenu_1Mql2
+  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(4) {
   border-radius: 0px 0px 20px 20px;
 }
 
