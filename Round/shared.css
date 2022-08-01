@@ -215,6 +215,14 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
 .appdetailsgameinfopanel_DeckVerifiedInfo_IIJei {
   border-radius: 20px;
 }
+.basicappdetailssectionstyler_AppActionButton_QsZdW.appactionbutton_PlayButtonContainer_1FnJ6 {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.basicappdetailssectionstyler_AppButtons_1thLD /* This makes the button a circle */
+  .appdetailsplaysection_MenuButton_3qDWQ {
+  border-radius: 50%; 
+}
 
 /* Media */
 .mediapage_ImageContainer_120HU {
@@ -225,7 +233,7 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
 }
 
 /* Downloads */
-/* .downloads_Button_3oavR.gamepaddialog_Button_1kn70.DialogButton[type="button"], */
+.downloads_Button_3oavR.gamepaddialog_Button_1kn70.DialogButton[type="button"], /* This makes the button a circle */
 .downloads_SectionItem_1VNuY,
 .downloads_RemoveAllButton_1GdR5  {
   border-radius: 20px;
