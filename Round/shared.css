@@ -225,7 +225,9 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
 }
 
 /* Downloads */
-.downloads_SectionItem_1VNuY {
+/* .downloads_Button_3oavR.gamepaddialog_Button_1kn70.DialogButton[type="button"], */
+.downloads_SectionItem_1VNuY,
+.downloads_RemoveAllButton_1GdR5  {
   border-radius: 20px;
 }
 
@@ -317,5 +319,10 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
   + .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(3):nth-child(6),
 .basiccontextmenu_ContextMenuSeparator_zVMb1
   + .basiccontextmenu_contextMenuItem_3PqLg:last-child:nth-child(8) {
+  border-radius: 20px;
+}
+
+/* Activate Product Dialog */
+.activateproductdialog_ProductActivationInfoContainer_1Amz7 {
   border-radius: 20px;
 }
