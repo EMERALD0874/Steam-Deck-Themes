@@ -63,7 +63,7 @@ through this theme. Additional fonts can be contributed through a pull request. 
 ### Obsidian
 
 This theme is based off of pure black themes commonly created for AMOLED devices. Although the Steam Deck has an LCD screen, I find the darker colors easier on my eyes
-and less Steam-themed.
+and less Steam-themed. There are also options for dark gray, gray, and dark variants of all colors of the rainbow.
 
 ![Obsidian theme](./obsidian-preview.png)
 
