@@ -243,6 +243,18 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
 .downloads_RemoveAllButton_1GdR5 {
   border-radius: var(--round-radius-size);
 }
+.downloads_Active_IbePL
+  > .downloads_SectionList_OINnO
+  > .downloads_SectionItemWrapper_21P7c
+  > .downloads_SectionItem_1VNuY {
+  border-radius: 0px !important;
+}
+.downloadgraph_HeroContainer_3WauY > .libraryassetimage_GreyBackground_2E7G8,
+.downloadgraph_HeroContainer_3WauY
+  > .libraryassetimage_GreyBackground_2E7G8
+  > .libraryassetimage_Image_24_Au {
+  border-radius: 0px !important;
+}
 
 /* Mods */
 .CssLoader_ThemeBrowser_SingleItem_BgImage,
