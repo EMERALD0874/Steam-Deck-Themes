@@ -1,6 +1,10 @@
+:root {
+  --round-radius-size: 10px;
+}
+
 /* General */
 .DialogInput {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
   overflow: hidden;
 }
 button.gamepaddialog_Button_1kn70.DialogButton,
@@ -14,92 +18,93 @@ button.gamepaddialog_Button_1kn70.DialogButton:hover.Primary,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary,
 div.basiccontextmenu_contextMenuContents_TBSbv {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .ModalPosition_Content
   > div:not(.ModalPosition_TopBar):not(.ModalPosition_Dismiss) {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 
 /* Recent games and library */
 .libraryassetimage_Image_24_Au {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .appportrait_LibraryItemBox_WYgDg {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .BasicUI .appportrait_LibraryItemBox_WYgDg::after {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .gamepadsearch_ResultTemplateImage_3K3Bx {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .BasicUI .libraryassetimage_GreyBackground_2E7G8 {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .BasicUI .allcollections_Collection_3IWn- {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
   overflow: hidden; /* This is to prevent the collection image from overflowing the collection box */
 }
 .steamdeckcompatfilter_CompatFilterDialog_21qvB {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:nth-child(1) {
-  border-radius: 20px 20px 0px 0px;
+  border-radius: var(--round-radius-size) var(--round-radius-size) 0px 0px;
 }
 .steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:nth-child(4) {
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px var(--round-radius-size) var(--round-radius-size);
 }
 .steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:last-child {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:nth-of-type(1):nth-last-child(3) {
-  border-radius: 20px !important;
+  border-radius: var(--round-radius-size) !important;
 }
 .BasicUI
   .appfilterpane_Container_170Np
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .appportrait_AppPortraitBanner_N8aJr {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .gamepadlibrary_AppGridFilterHeader_eGFYo {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .basicgamecarousel_TextBoxCarouselContents_3bvCH {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 
 /* What's new */
 .gamepadhomewhatsnew_Darkener_1n_1X {
-  border-radius: 20px 20px 0px 0px;
+  border-radius: var(--round-radius-size) var(--round-radius-size) 0px 0px;
 }
 .gamepadhomewhatsnew_EventImage_116GS {
-  border-radius: 20px 20px 0px 0px;
+  border-radius: var(--round-radius-size) var(--round-radius-size) 0px 0px;
 }
 .gamepadhomewhatsnew_EventPreviewOuterWrapper_10b1V:hover
   .gamepadhomewhatsnew_EventImage_116GS,
 .gpfocus .gamepadhomewhatsnew_EventImage_116GS {
-  border-radius: 30px 30px 0px 0px;
+  border-radius: calc(var(--round-radius-size) + 10px)
+    calc(var(--round-radius-size) + 10px) 0px 0px;
 }
 .gamepadhomewhatsnew_EventInfo_6TGe7 {
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px var(--round-radius-size) var(--round-radius-size);
 }
 .recentlycompleted_RecentlyCompletedItem_3OC7i {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
   overflow: hidden;
 }
 .marketingmessages_MarketingMessage_28UlE {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
   overflow: hidden;
 }
 
 /* Trending among friends (annoying to mess with outlines with, sorry if this is confusing lol) */
 .gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ {
   height: 30px;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px var(--round-radius-size) var(--round-radius-size);
 }
 .gamecapsule_GameCapsule_fXdhj
   > .libraryassetimage_GreyBackground_2E7G8
@@ -107,7 +112,7 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
   border-radius: 0px;
 }
 .gamecapsule_GameCapsule_fXdhj > .libraryassetimage_GreyBackground_2E7G8 {
-  border-radius: 20px 20px 0px 0px;
+  border-radius: var(--round-radius-size) var(--round-radius-size) 0px 0px;
   overflow: hidden;
 }
 .gamecapsule_GameCapsule_fXdhj {
@@ -117,138 +122,138 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
   margin-left: 10px;
 }
 .gamecapsule_InLibrary_fyHna {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 
 /* Friends */
 .gamepadhomefriends_FavoriteFriend_3SLpz,
 .gamepadhomefriends_GoToFriends_MVc_6 {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .gamepadhomefriends_InGameGame_KLo2n {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .BasicUI
   .appactivityday_ActivityAchievementUnlocked_yJLy7
   .appactivityday_PrimaryAchievement_26Qli {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .appactivityday_Event_UVeN0 {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
   overflow: hidden;
 }
 .appactivityday_PlayedGameFirstTime_3fdEo
   > .appactivityday_EventHeadline_QCKBq {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px var(--round-radius-size) var(--round-radius-size);
 }
 .BasicUI
   .appactivityday_ActivityAchievementUnlocked_yJLy7
   .appactivityday_PrimaryAchievement_26Qli {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .BasicUI
   .appactivityday_ScreenshotCarousel_1pdQd
   .appactivityday_CarouselThumbs_1tRKR
   .appactivityday_CarouselThumb_1Lot- {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
   overflow: hidden;
 }
 .gamepadsearch_ResultTemplateImage_3K3Bx {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
   overflow: hidden;
 }
 .FriendPickerFriendList,
 .FriendPickerFriendList._DialogInputContainer {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 
 /* Game details */
 .BasicUI .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .BasicUI
   .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .BasicUI .spotlightgameplaysummary_SummaryAchievement_qBmIH {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2 {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .appdetailsachievementssection_AchievementCarouselItem_mbFSn.appdetailsachievementssection_Detailed_3KGi6 {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .BasicUI .appdetailscommunityfeed_CommunityItem_3QS6O {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .appdetailscommunityfeed_ArtItem_1aP1b {
-  border-radius: 20px 20px 0px 0px;
+  border-radius: var(--round-radius-size) var(--round-radius-size) 0px 0px;
 }
 .appdetailsgameinfopanel_DeckVerifiedInfo_IIJei
   .appdetailsgameinfopanel_Details_3sfpA {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .basicappdetailssectionstyler_DeckVerifiedFeedbackConfirmationContainer_3G0l_,
 .basicappdetailssectionstyler_DeckVerifiedFeedbackContainer_3Y8xV {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .basicappdetailssectionstyler_DeckVerifiedFeedbackConfirmationContainer_3G0l_
   .basicappdetailssectionstyler_DeckVerifiedFeedbackButton_2F-oC,
 .basicappdetailssectionstyler_DeckVerifiedFeedbackContainer_3Y8xV
   .basicappdetailssectionstyler_DeckVerifiedFeedbackButton_2F-oC {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .BasicUI .appdetailssection_Highlight_38t1m {
-  border-radius: 20px 20px 0 0;
+  border-radius: var(--round-radius-size) var(--round-radius-size) 0 0;
 }
 .appdetailsactivitysection_NoActivity_2-kDc,
 .appdetailsactivitysection_Loading_3UShz {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .appdetailsgameinfopanel_DeckVerifiedInfo_IIJei {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .basicappdetailssectionstyler_AppActionButton_QsZdW.appactionbutton_PlayButtonContainer_1FnJ6 {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
   overflow: hidden;
 }
 .basicappdetailssectionstyler_AppButtons_1thLD /* This makes the button a circle */
   .appdetailsplaysection_MenuButton_3qDWQ {
-  border-radius: 50%; 
+  border-radius: var(--round-radius-size);
 }
 
 /* Media */
 .mediapage_ImageContainer_120HU {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 .mediapage_Screenshot_3Qh8h {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 
 /* Downloads */
 .downloads_Button_3oavR.gamepaddialog_Button_1kn70.DialogButton[type="button"], /* This makes the button a circle */
 .downloads_SectionItem_1VNuY,
-.downloads_RemoveAllButton_1GdR5  {
-  border-radius: 20px;
+.downloads_RemoveAllButton_1GdR5 {
+  border-radius: var(--round-radius-size);
 }
 
 /* Mods */
 .CssLoader_ThemeBrowser_SingleItem_BgImage,
 .CssLoader_ThemeBrowser_SingleItem_BgOverlay {
-  border-radius: 20px !important;
+  border-radius: var(--round-radius-size) !important;
   overflow: hidden;
 }
 
 /* Main-Menu Guides */
 .overlayguides_GuideListItemBase_1etIu {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 
 /* Main-Menu Achievements */
@@ -260,24 +265,24 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
   .achievementslist_AchievementList_1UXC2,
 .mainmenuapprunning_OverlayAchievements_2Qced
   .achievementsheader_StatsBlock__gDkI {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 
 /* Exit Game Dialog */
 .gamepaddialog_GamepadDialogContent_3joNk:not(.gamepadpagedsettings_PagedSettingsDialog_PageContent_wIOLO) {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 
 /* Settings */
 .DialogCheckbox_Container,
 .gamepadslider_EditableValue_2DXnl {
-  border-radius: 20px !important;
+  border-radius: var(--round-radius-size) !important;
 }
 
 .controllerconfigurator_interstitial_ControlLabel_tGJeF,
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN, /* This is selecting a controller layout */
 .controllerconfigurator_CommunityConfigsCallout_1xfC8 {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 
 .appproperties_AppProperties_1FyBL
@@ -305,14 +310,14 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
   .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(1),
 .basiccontextmenu_contextMenuContents_TBSbv:first-child.basiccontextmenu_hasSubMenu_1Mql2
   .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(2) {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
 
 .basiccontextmenu_contextMenuContents_TBSbv:first-child:not(.basiccontextmenu_hasSubMenu_1Mql2)
   .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(3),
 .basiccontextmenu_contextMenuContents_TBSbv:first-child.basiccontextmenu_hasSubMenu_1Mql2
   .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(4) {
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px var(--round-radius-size) var(--round-radius-size);
 }
 
 .BasicUI .appactionbutton_ButtonChild_2AzIX {
@@ -324,5 +329,5 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
 
 /* Activate Product Dialog */
 .activateproductdialog_ProductActivationInfoContainer_1Amz7 {
-  border-radius: 20px;
+  border-radius: var(--round-radius-size);
 }
