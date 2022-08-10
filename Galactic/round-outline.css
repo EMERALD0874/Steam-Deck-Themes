@@ -9,8 +9,21 @@
   margin: -2px;
 }
 
+.gpfocus .basicpartnereventspage_BasicPartnerEvent_2yuwU {
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: calc(var(--round-radius-size) + 2px);
+  margin: 54px auto 14px auto;
+}
+
 @keyframes appportrait_growOutline_3wk3d {
   0% {
+    /* This is necessary to fix themes like Switch-Like Home that rely on recent game sizes */
+    border: 2px solid;
+    margin: -2px;
+    border-radius: calc(var(--round-radius-size) + 2px);
+  }
+  0.1% {
     border: 12px solid;
     margin: -12px;
     border-radius: calc(var(--round-radius-size) + 10px);

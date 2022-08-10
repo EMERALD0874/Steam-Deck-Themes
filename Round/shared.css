@@ -100,6 +100,19 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
   border-radius: var(--round-radius-size);
   overflow: hidden;
 }
+/* News articles */
+.apppartnereventspage_PartnerEvent_lwprN {
+  border-radius: var(--round-radius-size) !important;
+  overflow: hidden;
+}
+.partnereventshared_Button_3P0Tm.partnereventshared_Icon_3p1Hj {
+  border-radius: var(--round-radius-size) !important;
+}
+.discussionwidget_VoteContainer_1uhQY,
+.discussionwidget_DiscussContainer_3tXYJ,
+.discussionwidget_ShareContainer_cLK_F {
+  border-radius: var(--round-radius-size) !important;
+}
 
 /* Trending among friends (annoying to mess with outlines with, sorry if this is confusing lol) */
 .gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ {
