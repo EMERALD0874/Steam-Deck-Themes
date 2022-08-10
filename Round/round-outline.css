@@ -105,8 +105,3 @@
     focusring_fadeOutline_2hZu3 0.4s ease,
     focusring_blinker_3wFMM 1.2s ease-in-out 0.4s 20;
 }
-
-/* fix for other themes */
-.gamepadhomerecentgames_RecentGamesContainer_2_cRk {
-  padding-top: 62px;
-}
