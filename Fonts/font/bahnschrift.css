@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Bahnschrift;
+  src: url("https://rawcdn.githack.com/PowerOfDream/digitx/b97de40ba05f52160715809312494b796f7ca8e0/font/bahnschrift.ttf?raw=true");
+}
+
+* {
+  font-family: Bahnschrift !important;
+}

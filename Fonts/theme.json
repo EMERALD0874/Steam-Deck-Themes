@@ -1,31 +1,34 @@
 {
   "name": "Fonts",
   "author": "EMERALD#0874",
-  "version": "v1.0",
+  "version": "v1.1",
   "inject": {},
   "target": "System-Wide",
   "patches": {
     "Font": {
       "default": "None",
       "None": {},
+      "Bahnschrift": {
+        "font/bahnschrift.css": ["SP", "MainMenu", "QuickAccess"]
+      },
       "Montserrat": {
-        "montserrat.css": ["SP", "MainMenu", "QuickAccess"]
+        "font/montserrat.css": ["SP", "MainMenu", "QuickAccess"]
       },
       "Optima Nova": {
-        "optima-nova.css": ["SP", "MainMenu", "QuickAccess"]
+        "font/optima-nova.css": ["SP", "MainMenu", "QuickAccess"]
       },
       "Roboto": {
-        "roboto.css": ["SP", "MainMenu", "QuickAccess"]
+        "font/roboto.css": ["SP", "MainMenu", "QuickAccess"]
       }
     },
     "Text Transform": {
       "default": "None",
       "None": {},
       "Standard Case": {
-        "standard-case.css": ["SP", "MainMenu", "QuickAccess"]
+        "case/standard-case.css": ["SP", "MainMenu", "QuickAccess"]
       },
       "Uppercase": {
-        "uppercase.css": ["SP", "MainMenu", "QuickAccess"]
+        "case/uppercase.css": ["SP", "MainMenu", "QuickAccess"]
       }
     }
   }
