@@ -9,6 +9,13 @@
   margin: -2px;
 }
 
+.gpfocus .basicpartnereventspage_BasicPartnerEvent_2yuwU {
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: calc(var(--round-radius-size) + 2px);
+  margin: 54px auto 14px auto;
+}
+
 @keyframes appportrait_growOutline_3wk3d {
   0% {
     border: 12px solid;
