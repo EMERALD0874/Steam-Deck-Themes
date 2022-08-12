@@ -141,3 +141,79 @@ Because of this, all images have their links hardcoded. This is hopefully a temp
   background: linear-gradient(313deg, #333333, #555555);
   border: 6px black solid;
 }
+
+/*
+~ LIBRARY ~
+*/
+.appgrid_YourCollection_11p6F
+  > *
+  > .appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd
+  > img {
+  top: 7%;
+  left: 7%;
+  width: 86%;
+  height: 86%;
+}
+/* First of four */
+.appgrid_YourCollection_11p6F
+  > *:nth-child(4n-3)
+  > .appportrait_Portrait_1Pf6J {
+  background-image: url(https://i.imgur.com/SQbPOVs.png);
+  background-size: cover;
+  -webkit-mask-image: url(https://i.imgur.com/SQbPOVs.png);
+  -webkit-mask-size: cover;
+}
+.appgrid_YourCollection_11p6F
+  > *:nth-child(4n-3)
+  > .appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd {
+  -webkit-mask-image: url(https://i.imgur.com/hMKDmv1.png);
+  -webkit-mask-size: cover;
+}
+/* Second of four */
+.appgrid_YourCollection_11p6F
+  > *:nth-child(4n-2)
+  > .appportrait_Portrait_1Pf6J {
+  background-image: url(https://i.imgur.com/zJNv72o.png);
+  background-size: cover;
+  -webkit-mask-image: url(https://i.imgur.com/zJNv72o.png);
+  -webkit-mask-size: cover;
+}
+.appgrid_YourCollection_11p6F
+  > *:nth-child(4n-2)
+  > .appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd {
+  -webkit-mask-image: url(https://i.imgur.com/AmB0gUl.png);
+  -webkit-mask-size: cover;
+}
+/* Third of four */
+.appgrid_YourCollection_11p6F
+  > *:nth-child(4n-1)
+  > .appportrait_Portrait_1Pf6J {
+  background-image: url(https://i.imgur.com/khxM9ln.png);
+  background-size: cover;
+  -webkit-mask-image: url(https://i.imgur.com/khxM9ln.png);
+  -webkit-mask-size: cover;
+}
+.appgrid_YourCollection_11p6F
+  > *:nth-child(4n-1)
+  > .appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd {
+  -webkit-mask-image: url(https://i.imgur.com/XNQ9Yzw.png);
+  -webkit-mask-size: cover;
+}
+/* Fourth of four */
+.appgrid_YourCollection_11p6F > *:nth-child(4n) > .appportrait_Portrait_1Pf6J {
+  background-image: url(https://i.imgur.com/efW46P5.png);
+  background-size: cover;
+  -webkit-mask-image: url(https://i.imgur.com/efW46P5.png);
+  -webkit-mask-size: cover;
+}
+.appgrid_YourCollection_11p6F
+  > *:nth-child(4n)
+  > .appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd {
+  -webkit-mask-image: url(https://i.imgur.com/XBLT2CD.png);
+  -webkit-mask-size: cover;
+}
