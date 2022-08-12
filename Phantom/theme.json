@@ -6,5 +6,12 @@
   "version": "v1.0",
   "inject": {
     "shared.css": ["SP"]
+  },
+  "patches": {
+    "Flat": {
+      "default": "Yes",
+      "Yes": { "flat.css": ["SP"] },
+      "No": {}
+    }
   }
 }

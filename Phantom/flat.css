@@ -1,0 +1,10 @@
+/* Remove hovered game glow */
+.gpfocuswithin ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
+:hover ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
+  opacity: 0;
+}
+
+/* Remove hovered game brightness */
+.BasicUI .appportrait_LibraryItemBox_WYgDg::after {
+  background: none;
+}
