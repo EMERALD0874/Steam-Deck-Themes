@@ -155,9 +155,9 @@ Because of this, all images have their links hardcoded. This is hopefully a temp
   width: 86%;
   height: 86%;
 }
-/* First of four */
+/* First of five */
 .appgrid_YourCollection_11p6F
-  > *:nth-child(4n-3)
+  > *:nth-child(5n-4)
   > .appportrait_Portrait_1Pf6J {
   background-image: url(https://i.imgur.com/SQbPOVs.png);
   background-size: cover;
@@ -165,15 +165,15 @@ Because of this, all images have their links hardcoded. This is hopefully a temp
   -webkit-mask-size: cover;
 }
 .appgrid_YourCollection_11p6F
-  > *:nth-child(4n-3)
+  > *:nth-child(5n-4)
   > .appportrait_Portrait_1Pf6J
   > .libraryassetimage_PortraitImage_3Ehhd {
   -webkit-mask-image: url(https://i.imgur.com/hMKDmv1.png);
   -webkit-mask-size: cover;
 }
-/* Second of four */
+/* Second of five */
 .appgrid_YourCollection_11p6F
-  > *:nth-child(4n-2)
+  > *:nth-child(5n-3)
   > .appportrait_Portrait_1Pf6J {
   background-image: url(https://i.imgur.com/zJNv72o.png);
   background-size: cover;
@@ -181,15 +181,15 @@ Because of this, all images have their links hardcoded. This is hopefully a temp
   -webkit-mask-size: cover;
 }
 .appgrid_YourCollection_11p6F
-  > *:nth-child(4n-2)
+  > *:nth-child(5n-3)
   > .appportrait_Portrait_1Pf6J
   > .libraryassetimage_PortraitImage_3Ehhd {
   -webkit-mask-image: url(https://i.imgur.com/AmB0gUl.png);
   -webkit-mask-size: cover;
 }
-/* Third of four */
+/* Third of five */
 .appgrid_YourCollection_11p6F
-  > *:nth-child(4n-1)
+  > *:nth-child(5n-2)
   > .appportrait_Portrait_1Pf6J {
   background-image: url(https://i.imgur.com/khxM9ln.png);
   background-size: cover;
@@ -197,23 +197,39 @@ Because of this, all images have their links hardcoded. This is hopefully a temp
   -webkit-mask-size: cover;
 }
 .appgrid_YourCollection_11p6F
-  > *:nth-child(4n-1)
+  > *:nth-child(5n-2)
   > .appportrait_Portrait_1Pf6J
   > .libraryassetimage_PortraitImage_3Ehhd {
   -webkit-mask-image: url(https://i.imgur.com/XNQ9Yzw.png);
   -webkit-mask-size: cover;
 }
-/* Fourth of four */
-.appgrid_YourCollection_11p6F > *:nth-child(4n) > .appportrait_Portrait_1Pf6J {
+/* Fourth of five */
+.appgrid_YourCollection_11p6F
+  > *:nth-child(5n-1)
+  > .appportrait_Portrait_1Pf6J {
   background-image: url(https://i.imgur.com/efW46P5.png);
   background-size: cover;
   -webkit-mask-image: url(https://i.imgur.com/0W77d6V.png);
   -webkit-mask-size: cover;
 }
 .appgrid_YourCollection_11p6F
-  > *:nth-child(4n)
+  > *:nth-child(5n-1)
   > .appportrait_Portrait_1Pf6J
   > .libraryassetimage_PortraitImage_3Ehhd {
   -webkit-mask-image: url(https://i.imgur.com/XBLT2CD.png);
+  -webkit-mask-size: cover;
+}
+/* Fifth of five */
+.appgrid_YourCollection_11p6F > *:nth-child(5n) > .appportrait_Portrait_1Pf6J {
+  background-image: url(https://i.imgur.com/SQbPOVs.png);
+  background-size: cover;
+  -webkit-mask-image: url(https://i.imgur.com/gYR4A7c.png);
+  -webkit-mask-size: cover;
+}
+.appgrid_YourCollection_11p6F
+  > *:nth-child(5n)
+  > .appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd {
+  -webkit-mask-image: url(https://i.imgur.com/hMKDmv1.png);
   -webkit-mask-size: cover;
 }

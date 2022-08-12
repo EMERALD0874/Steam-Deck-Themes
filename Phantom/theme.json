@@ -8,6 +8,11 @@
     "shared.css": ["SP"]
   },
   "patches": {
+    "Installation": {
+      "default": "All",
+      "All": { "colors.css": ["SP"] },
+      "Minimal": {}
+    },
     "Flat": {
       "default": "Yes",
       "Yes": { "flat.css": ["SP"] },
