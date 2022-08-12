@@ -4,44 +4,8 @@
   opacity: 0.5 !important;
 }
 
-/* Get rid of header art scaling */
-@keyframes gamepadhomerecentgames_OpacityIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 0.5;
-  }
-}
-@keyframes gamepadhomerecentgames_OpacityOut {
-  from {
-    opacity: 0.5;
-  }
-  to {
-    opacity: 0;
-  }
-}
-.gamepadhomerecentgames_RecentGamesBackground_1SRox {
-  transform: none;
-}
-.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R {
-  -webkit-mask-image: none;
-}
-.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R.gamepadhomerecentgames_MoveLeft_30M_n:not(.gamepadhomerecentgames_OffScreen_Yk-I2) {
-  animation-name: gamepadhomerecentgames_OpacityIn;
-}
-.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R.gamepadhomerecentgames_OffScreen_Yk-I2.gamepadhomerecentgames_MoveLeft_30M_n {
-  animation-name: gamepadhomerecentgames_OpacityOut;
-}
-.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R.gamepadhomerecentgames_MoveRight_3dyds:not(.gamepadhomerecentgames_OffScreen_Yk-I2) {
-  animation-name: gamepadhomerecentgames_OpacityIn;
-}
-.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R.gamepadhomerecentgames_OffScreen_Yk-I2.gamepadhomerecentgames_MoveRight_3dyds {
-  animation-name: gamepadhomerecentgames_OpacityOut;
-}
-
 /* Make recent games red */
-.gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
+.gamepadhome_RecentSection_39tNv {
   background: #900 !important;
 }
 .gamepadhomerecentgames_RecentGamesInnerContainer_282X0
