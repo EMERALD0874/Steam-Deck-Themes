@@ -1,0 +1,71 @@
+/* TODO: Replace images with a GitHub URL so we're relying on the repo */
+/*
+For some godforsaken reason, using vars for image URLs causes the UI to flicker a TON.
+Because of this, all images have their links hardcoded. This is hopefully a temporary fix.
+*/
+
+/*
+~ RECENT GAMES ~
+*/
+.gamepadhomerecentgames_RecentGamesInnerContainer_282X0
+  > div
+  > div
+  > .basicgamecarousel_BasicGameCarousel_3MdH5
+  > .ReactVirtualized__Grid__innerScrollContainer {
+  background-image: url("https://i.imgur.com/6nmiku2.png");
+  background-size: contain;
+}
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
+  outline: none;
+  animation: none;
+}
+.appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd
+  > img {
+  top: 7%;
+  left: 7%;
+  width: 86%;
+  height: 86%;
+}
+/* Most recent game */
+.appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A- {
+  background-image: url(https://i.imgur.com/kzh45vX.png);
+  background-size: contain;
+  -webkit-mask-image: url(https://i.imgur.com/kzh45vX.png);
+  -webkit-mask-size: contain;
+}
+.appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A-
+  > .libraryassetimage_LandscapeImage_ZsU8n {
+  -webkit-mask-image: url(https://i.imgur.com/wZ7LB1g.png);
+  -webkit-mask-size: contain;
+}
+.appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A-
+  > .libraryassetimage_LandscapeImage_ZsU8n
+  > img {
+  top: 7%;
+  left: 7%;
+  width: 86%;
+  height: 86%;
+}
+/* First of six */
+*:nth-child(6n-4)
+  > *
+  > *
+  > *
+  > *
+  > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J {
+  background-image: url(https://i.imgur.com/SQbPOVs.png);
+  background-size: contain;
+  -webkit-mask-image: url(https://i.imgur.com/SQbPOVs.png);
+  -webkit-mask-size: contain;
+}
+*:nth-child(6n-4)
+  > *
+  > *
+  > *
+  > *
+  > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd {
+  -webkit-mask-image: url(https://i.imgur.com/3IT70Bi.png);
+  -webkit-mask-size: contain;
+}
