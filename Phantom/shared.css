@@ -31,7 +31,7 @@ Because of this, all images have their links hardcoded. This is hopefully a temp
 .appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A- {
   background-image: url(https://i.imgur.com/PsxmKGQ.png);
   background-size: cover;
-  -webkit-mask-image: url(https://i.imgur.com/PsxmKGQ.png);
+  -webkit-mask-image: url(https://i.imgur.com/6u0MQq0.png);
   -webkit-mask-size: cover;
 }
 .appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A-
@@ -56,7 +56,7 @@ Because of this, all images have their links hardcoded. This is hopefully a temp
   > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J {
   background-image: url(https://i.imgur.com/SQbPOVs.png);
   background-size: cover;
-  -webkit-mask-image: url(https://i.imgur.com/SQbPOVs.png);
+  -webkit-mask-image: url(https://i.imgur.com/gYR4A7c.png);
   -webkit-mask-size: cover;
 }
 *:nth-child(4n-2)
@@ -100,7 +100,7 @@ Because of this, all images have their links hardcoded. This is hopefully a temp
   > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J {
   background-image: url(https://i.imgur.com/khxM9ln.png);
   background-size: cover;
-  -webkit-mask-image: url(https://i.imgur.com/khxM9ln.png);
+  -webkit-mask-image: url(https://i.imgur.com/g54Z20c.png);
   -webkit-mask-size: cover;
 }
 *:nth-child(4n)
@@ -122,7 +122,7 @@ Because of this, all images have their links hardcoded. This is hopefully a temp
   > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J {
   background-image: url(https://i.imgur.com/efW46P5.png);
   background-size: cover;
-  -webkit-mask-image: url(https://i.imgur.com/efW46P5.png);
+  -webkit-mask-image: url(https://i.imgur.com/0W77d6V.png);
   -webkit-mask-size: cover;
 }
 *:nth-child(4n-3)
@@ -161,7 +161,7 @@ Because of this, all images have their links hardcoded. This is hopefully a temp
   > .appportrait_Portrait_1Pf6J {
   background-image: url(https://i.imgur.com/SQbPOVs.png);
   background-size: cover;
-  -webkit-mask-image: url(https://i.imgur.com/SQbPOVs.png);
+  -webkit-mask-image: url(https://i.imgur.com/gYR4A7c.png);
   -webkit-mask-size: cover;
 }
 .appgrid_YourCollection_11p6F
@@ -193,7 +193,7 @@ Because of this, all images have their links hardcoded. This is hopefully a temp
   > .appportrait_Portrait_1Pf6J {
   background-image: url(https://i.imgur.com/khxM9ln.png);
   background-size: cover;
-  -webkit-mask-image: url(https://i.imgur.com/khxM9ln.png);
+  -webkit-mask-image: url(https://i.imgur.com/g54Z20c.png);
   -webkit-mask-size: cover;
 }
 .appgrid_YourCollection_11p6F
@@ -207,7 +207,7 @@ Because of this, all images have their links hardcoded. This is hopefully a temp
 .appgrid_YourCollection_11p6F > *:nth-child(4n) > .appportrait_Portrait_1Pf6J {
   background-image: url(https://i.imgur.com/efW46P5.png);
   background-size: cover;
-  -webkit-mask-image: url(https://i.imgur.com/efW46P5.png);
+  -webkit-mask-image: url(https://i.imgur.com/0W77d6V.png);
   -webkit-mask-size: cover;
 }
 .appgrid_YourCollection_11p6F
