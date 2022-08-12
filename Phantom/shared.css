@@ -10,10 +10,10 @@ Because of this, all images have their links hardcoded. This is hopefully a temp
 .gamepadhomerecentgames_RecentGamesInnerContainer_282X0
   > div
   > div
-  > .basicgamecarousel_BasicGameCarousel_3MdH5
-  > .ReactVirtualized__Grid__innerScrollContainer {
-  background-image: url("https://i.imgur.com/6nmiku2.png");
+  > .basicgamecarousel_BasicGameCarousel_3MdH5 {
+  background-image: url(https://i.imgur.com/6nmiku2.png);
   background-size: contain;
+  background-attachment: local;
 }
 .BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
   outline: none;
@@ -29,15 +29,15 @@ Because of this, all images have their links hardcoded. This is hopefully a temp
 }
 /* Most recent game */
 .appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A- {
-  background-image: url(https://i.imgur.com/kzh45vX.png);
-  background-size: contain;
-  -webkit-mask-image: url(https://i.imgur.com/kzh45vX.png);
-  -webkit-mask-size: contain;
+  background-image: url(https://i.imgur.com/PsxmKGQ.png);
+  background-size: cover;
+  -webkit-mask-image: url(https://i.imgur.com/PsxmKGQ.png);
+  -webkit-mask-size: cover;
 }
 .appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A-
   > .libraryassetimage_LandscapeImage_ZsU8n {
   -webkit-mask-image: url(https://i.imgur.com/wZ7LB1g.png);
-  -webkit-mask-size: contain;
+  -webkit-mask-size: cover;
 }
 .appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A-
   > .libraryassetimage_LandscapeImage_ZsU8n
@@ -47,25 +47,97 @@ Because of this, all images have their links hardcoded. This is hopefully a temp
   width: 86%;
   height: 86%;
 }
-/* First of six */
-*:nth-child(6n-4)
+/* First of four */
+*:nth-child(4n-2)
   > *
   > *
   > *
   > *
   > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J {
   background-image: url(https://i.imgur.com/SQbPOVs.png);
-  background-size: contain;
+  background-size: cover;
   -webkit-mask-image: url(https://i.imgur.com/SQbPOVs.png);
-  -webkit-mask-size: contain;
+  -webkit-mask-size: cover;
 }
-*:nth-child(6n-4)
+*:nth-child(4n-2)
   > *
   > *
   > *
   > *
   > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J
   > .libraryassetimage_PortraitImage_3Ehhd {
-  -webkit-mask-image: url(https://i.imgur.com/3IT70Bi.png);
-  -webkit-mask-size: contain;
+  -webkit-mask-image: url(https://i.imgur.com/hMKDmv1.png);
+  -webkit-mask-size: cover;
+}
+/* Second of four */
+*:nth-child(4n-1)
+  > *
+  > *
+  > *
+  > *
+  > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J {
+  background-image: url(https://i.imgur.com/zJNv72o.png);
+  background-size: cover;
+  -webkit-mask-image: url(https://i.imgur.com/zJNv72o.png);
+  -webkit-mask-size: cover;
+}
+*:nth-child(4n-1)
+  > *
+  > *
+  > *
+  > *
+  > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd {
+  -webkit-mask-image: url(https://i.imgur.com/AmB0gUl.png);
+  -webkit-mask-size: cover;
+}
+/* Third of four */
+*:nth-child(4n)
+  > *
+  > *
+  > *
+  > *
+  > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J {
+  background-image: url(https://i.imgur.com/khxM9ln.png);
+  background-size: cover;
+  -webkit-mask-image: url(https://i.imgur.com/khxM9ln.png);
+  -webkit-mask-size: cover;
+}
+*:nth-child(4n)
+  > *
+  > *
+  > *
+  > *
+  > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd {
+  -webkit-mask-image: url(https://i.imgur.com/XNQ9Yzw.png);
+  -webkit-mask-size: cover;
+}
+/* Fourth of four */
+*:nth-child(4n-3)
+  > *
+  > *
+  > *
+  > *
+  > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J {
+  background-image: url(https://i.imgur.com/efW46P5.png);
+  background-size: cover;
+  -webkit-mask-image: url(https://i.imgur.com/efW46P5.png);
+  -webkit-mask-size: cover;
+}
+*:nth-child(4n-3)
+  > *
+  > *
+  > *
+  > *
+  > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd {
+  -webkit-mask-image: url(https://i.imgur.com/XBLT2CD.png);
+  -webkit-mask-size: cover;
+}
+/* View more */
+.basicgamecarousel_BasicGameCarouselItem_3YYQ9
+  .basicgamecarousel_TextBoxCarouselContents_3bvCH {
+  background: linear-gradient(313deg, #333333, #555555);
+  border: 6px black solid;
 }
