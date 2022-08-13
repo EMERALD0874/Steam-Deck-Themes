@@ -2,32 +2,39 @@
   "name": "Galactic",
   "author": "EMERALD#0874",
   "target": "System-Wide",
-  "version": "v1.7",
+  "version": "v1.8",
+  "manifest_version": 2,
   "inject": {
     "background.css": ["SP"]
   },
   "patches": {
     "Installation": {
       "default": "All",
-      "All": {
-        "center-recents.css": ["SP"],
-        "colors.css": ["SP", "MainMenu", "QuickAccess"],
-        "fonts.css": ["SP", "MainMenu", "QuickAccess"],
-        "round.css": ["SP"],
-        "round-outline.css": ["SP"]
-      },
-      "Only colors and fonts": {
-        "colors.css": ["SP", "MainMenu", "QuickAccess"],
-        "fonts.css": ["SP", "MainMenu", "QuickAccess"]
-      },
-      "Only background": {}
+      "type": "dropdown",
+      "values": {
+        "All": {
+          "center-recents.css": ["SP"],
+          "colors.css": ["SP", "MainMenu", "QuickAccess"],
+          "fonts.css": ["SP", "MainMenu", "QuickAccess"],
+          "round.css": ["SP"],
+          "round-outline.css": ["SP"]
+        },
+        "Only colors and fonts": {
+          "colors.css": ["SP", "MainMenu", "QuickAccess"],
+          "fonts.css": ["SP", "MainMenu", "QuickAccess"]
+        },
+        "Only background": {}
+      }
     },
     "Offline Mode": {
-      "default": "Disabled",
-      "Enabled (static background)": {
-        "offline.css": ["SP", "MainMenu", "QuickAccess"]
-      },
-      "Disabled": {}
+      "default": "No",
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "offline.css": ["SP", "MainMenu", "QuickAccess"]
+        },
+        "No": {}
+      }
     }
   }
 }
