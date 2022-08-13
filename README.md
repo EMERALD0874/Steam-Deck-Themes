@@ -2,43 +2,54 @@
 
 This repository contains various themes that I created for use with [suchmememanyskill's Steam Deck CSS loader](https://github.com/suchmememanyskill/SDH-CssLoader). Many of these themes are smaller components that can be built upon, such as a centered home screen. Please feel free to use my work as a part of your own themes. Attribution is always appreciated but not required.
 
-
 ## Installation
 
 1. Install the [Steam Deck plugin loader](https://github.com/SteamDeckHomebrew/decky-loader). The pre-release is recommended at the time of this guide being written.
 1. Open the Plugins section in the Quick Access menu.
 1. Open the [Plugin Store](https://beta.deckbrew.xyz/) using the shopping bag icon in the top-right corner.
-1. Install [suchmememanyskill/SDH-CssLoader](https://github.com/suchmememanyskill/SDH-CssLoader).
-2. Choose a theme installation method below.
+1. Install the [CSS Loader plugin](https://github.com/suchmememanyskill/SDH-CssLoader).
+1. Choose a theme installation method below.
 
-### Option 1: Manually Adding Themes
+### Using the Theme Manager
+
+1. Open the Plugins section in the Quick Access menu.
+1. Open the CSS Loader plugin.
+1. Select Manage Themes.
+1. Find the theme(s) you want to install.
+1. Select View Details.
+1. Select Install.
+1. Return to the CSS Loader plugin.
+1. Enable your desired theme(s).
+
+### Manually Adding Themes
+
 1. Hold the power button and select Switch to Desktop.
+1. Download this repository.
+1. Open a file browser.
 1. Navigate to `/home/deck/homebrew/themes`.
-1. Copy the folder(s) from this repository (ex. Obsidian) into the themes folder.
+1. Copy the desired folder(s) from this repository (ex. `Obsidian`) into the `themes` folder. You do not need to copy the `resources` folder.
 1. Select Return to Gaming Mode on the desktop.
 1. Open the Plugins section in the Quick Access menu.
 1. Open the CSS Loader plugin.
 1. Enable your installed theme(s).
 
-### Option 2: Using the Theme Data Base
-1. Open the Plugins section in the Quick Access menu.
-1. Open the CSS Loader plugin.
-1. Select Manage Themes.
-1. Search for the theme you want to install.
-1. Press install.
-1. Return to the CSS Loader plugin.
-1. Enable your desired theme(s).
-   
-## Theme Packs
+## Detailed Themes
 
-Below are previews and brief descriptions for each theme pack. These are large themes that contain a variety of changes to overhaul the entire Steam Deck interface.
+Below are previews and brief descriptions for each detailed theme. These are larger themes that contain a variety of changes to overhaul the Steam Deck interface.
 
 ### Galactic
 
 This theme is intended to be a rounded, clean, and modern look while still providing eye candy when looking at the recent games. This was my first theme pack and my
 first attempt at learning a variety of new CSS changes such as fonts and backgrounds that work on the go.
 
-![Galactic theme pack](./galactic-preview.jpg)
+![Galactic theme](./resources/images/readme/galactic.jpg)
+
+### Phantom
+
+Join The Phantom Thieves of Hearts with this theme that stylizes your recent games and library to look like the UI from Persona 5. Obsidian is recommended to be used
+alongside this theme.
+
+![Phantom theme](./resources/images/readme/phantom.jpg)
 
 ## Themes
 
@@ -51,28 +62,28 @@ This theme makes the recent games section take up the full screen and centers it
 or not to consider the title of the game when centering vertically (assuming the header is hidden). I recommend using this with the Static Background theme by SuchMeme
 pictured below.
 
-![Centered Home theme](./centered-home-preview.jpg)
+![Centered Home theme](./resources/images/readme/centered-home.jpg)
 
 ### Fonts
 
 This theme adds a variety of fonts and control over capitalization to the Steam Deck. Fonts used in any of my other themes as well as certain unique fonts are available
 through this theme. Additional fonts can be contributed through a pull request. Pictured below is Roboto with standard capitalization enforced.
 
-![Fonts preview](./fonts-preview.jpg)
+![Fonts preview](./resources/images/readme/fonts.jpg)
 
 ### Obsidian
 
 This theme is based off of pure black themes commonly created for AMOLED devices. Although the Steam Deck has an LCD screen, I find the darker colors easier on my eyes
 and less Steam-themed. There are also options for dark gray, gray, and dark variants of all colors of the rainbow.
 
-![Obsidian theme](./obsidian-preview.png)
+![Obsidian theme](./resources/images/readme/obsidian.png)
 
 ### Round
 
 This theme adds round edges to any image that can reasonably have them. Certain images like achievements, trading cards, and profile pictures have been left as-is to
 avoid removing any detail. Anything largely rectangular or difficult to round (ex. sets of buttons, chat, header) has also been left as-is.
 
-![Round theme](./round-preview.jpg)
+![Round theme](./resources/images/readme/round.jpg)
 
 ## Contribution
 
