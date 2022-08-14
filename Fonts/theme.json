@@ -1,34 +1,42 @@
 {
   "name": "Fonts",
+  "description": "This theme adds a variety of fonts and control over capitalization to the Steam Deck. Fonts used in any of my other themes as well as certain unique fonts are available through this theme. Additional fonts can be contributed through an issue on the GitHub repository.",
   "author": "EMERALD#0874",
   "version": "v1.1",
+  "manifest_version": 2,
   "inject": {},
   "target": "System-Wide",
   "patches": {
     "Font": {
       "default": "None",
-      "None": {},
-      "Bahnschrift": {
-        "font/bahnschrift.css": ["SP", "MainMenu", "QuickAccess"]
-      },
-      "Montserrat": {
-        "font/montserrat.css": ["SP", "MainMenu", "QuickAccess"]
-      },
-      "Optima Nova": {
-        "font/optima-nova.css": ["SP", "MainMenu", "QuickAccess"]
-      },
-      "Roboto": {
-        "font/roboto.css": ["SP", "MainMenu", "QuickAccess"]
+      "type": "dropdown",
+      "values": {
+        "None": {},
+        "Bahnschrift": {
+          "font/bahnschrift.css": ["SP", "MainMenu", "QuickAccess"]
+        },
+        "Montserrat": {
+          "font/montserrat.css": ["SP", "MainMenu", "QuickAccess"]
+        },
+        "Optima Nova": {
+          "font/optima-nova.css": ["SP", "MainMenu", "QuickAccess"]
+        },
+        "Roboto": {
+          "font/roboto.css": ["SP", "MainMenu", "QuickAccess"]
+        }
       }
     },
     "Text Transform": {
       "default": "None",
-      "None": {},
-      "Standard Case": {
-        "case/standard-case.css": ["SP", "MainMenu", "QuickAccess"]
-      },
-      "Uppercase": {
-        "case/uppercase.css": ["SP", "MainMenu", "QuickAccess"]
+      "type": "dropdown",
+      "values": {
+        "None": {},
+        "Standard Case": {
+          "case/standard-case.css": ["SP", "MainMenu", "QuickAccess"]
+        },
+        "Uppercase": {
+          "case/uppercase.css": ["SP", "MainMenu", "QuickAccess"]
+        }
       }
     }
   }
