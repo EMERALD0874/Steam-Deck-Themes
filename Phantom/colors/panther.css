@@ -1,0 +1,6 @@
+:root {
+  --phantom-color: #f77dbe !important;
+}
+.gamepadhomerecentgames_RecentGamesContainer_2_cRk {
+  backdrop-filter: saturate(1.2) brightness(1.1) hue-rotate(10deg);
+}

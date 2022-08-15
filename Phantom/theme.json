@@ -3,16 +3,50 @@
   "description": "Join The Phantom Thieves of Hearts with this theme that stylizes your recent games and library to look like the UI from Persona 5. Obsidian is recommended to be used alongside this theme.",
   "author": "EMERALD#0874",
   "target": "System-Wide",
-  "version": "v1.1",
+  "version": "v2.0",
   "manifest_version": 2,
   "inject": { "shared.css": ["SP"] },
   "patches": {
-    "Colors": {
-      "default": "Yes",
-      "type": "checkbox",
+    "Color Choice": {
+      "default": "Red (Joker / Violet)",
+      "type": "dropdown",
       "values": {
-        "Yes": { "colors.css": ["SP"] },
-        "No": {}
+        "None": {},
+        "Red (Joker / Violet)": {
+          "colors.css": ["SP"],
+          "colors/joker.css": ["SP"]
+        },
+        "Yellow (Skull)": {
+          "colors.css": ["SP"],
+          "colors/skull.css": ["SP"],
+          "bright-color-fix.css": ["SP"]
+        },
+        "Light Blue (Mona / Wolf)": {
+          "colors.css": ["SP"],
+          "colors/mona.css": ["SP"]
+        },
+        "Pink (Panther)": {
+          "colors.css": ["SP"],
+          "colors/panther.css": ["SP"]
+        },
+        "Cyan (Fox)": { "colors.css": ["SP"], "colors/fox.css": ["SP"] },
+        "Blue (Queen)": { "colors.css": ["SP"], "colors/queen.css": ["SP"] },
+        "Green (Oracle)": { "colors.css": ["SP"], "colors/oracle.css": ["SP"] },
+        "Purple (Noir)": { "colors.css": ["SP"], "colors/noir.css": ["SP"] },
+        "Brown (Crow)": { "colors.css": ["SP"], "colors/crow.css": ["SP"] },
+        "Orange (Sophie)": {
+          "colors.css": ["SP"],
+          "colors/sophie.css": ["SP"]
+        },
+        "Dark Blue (Velvet Room)": {
+          "colors.css": ["SP"],
+          "colors/velvet.css": ["SP"]
+        },
+        "Pale Blue (???)": {
+          "colors.css": ["SP"],
+          "colors/thirdsem.css": ["SP"],
+          "bright-color-fix.css": ["SP"]
+        }
       }
     },
     "Flat": {

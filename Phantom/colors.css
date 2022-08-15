@@ -1,24 +1,29 @@
+:root {
+  --phantom-color: #000;
+}
+
 /* Turn the header art to grayscale */
 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
   filter: grayscale(1);
   opacity: 0.5 !important;
 }
 
-/* Make recent games red */
+/* Make recent games colored */
 .gamepadhome_RecentSection_39tNv {
-  background: #900 !important;
-}
-.gamepadhomerecentgames_RecentGamesContainer_2_cRk {
-  backdrop-filter: saturate(2) brightness(0.75);
+  background: var(--phantom-color) !important;
 }
 .gamepadhomerecentgames_RecentGamesInnerContainer_282X0
   .basicgamecarousel_SubMessage_1BtXg {
   color: #ccc;
 }
+.gamepadhomerecentgames_RecentGamesInnerContainer_282X0
+  .basicgamecarousel_SubMessage_1BtXg.basicgamecarousel_SubMessage_1BtXg.basicgamecarousel_FriendsInGame_3z5U1 {
+  color: #59bf40;
+}
 
 /* Stylize library */
 .gamepadlibrary_GamepadLibrary_ZBBhe {
-  background: #900 !important;
+  background: var(--phantom-color) !important;
 }
 .gamepadlibrary_GamepadLibrary_ZBBhe
   .gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b {
@@ -32,7 +37,12 @@
   color: #fff !important;
 }
 .gamepadlibrary_GamepadLibrary_ZBBhe
+  .gamepadtabbedpage_Tab_3eEbS
+  .gamepadtabbedpage_TabCount_1ui4I {
+  color: #ccc;
+}
+.gamepadlibrary_GamepadLibrary_ZBBhe
   .gamepadtabbedpage_Tab_3eEbS.gpfocus
   .gamepadtabbedpage_TabCount_1ui4I {
-  color: #8b929a !important;
+  color: #ccc !important;
 }
