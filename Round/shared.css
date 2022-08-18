@@ -356,3 +356,8 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
 .activateproductdialog_ProductActivationInfoContainer_1Amz7 {
   border-radius: var(--round-radius-size);
 }
+
+/* Add Support for ProtonDB Badge plugin by OMGDuke */
+.protondb-decky-indicator {
+  border-radius: var(--round-radius-size);
+}
