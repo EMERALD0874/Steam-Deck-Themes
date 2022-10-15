@@ -1,8 +1,0 @@
-@font-face {
-  font-family: Bahnschrift;
-  src: url("https://rawcdn.githack.com/EMERALD0874/Steam-Deck-Themes/f2e4cbd6837442351a1768421e4ac6fe72f2c3a5/resources/fonts/bahnschrift.ttf?raw=true");
-}
-
-* {
-  font-family: Bahnschrift !important;
-}

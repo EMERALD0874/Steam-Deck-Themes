@@ -1,9 +1,0 @@
-@font-face {
-  font-family: OptimaNova;
-  src: url("https://rawcdn.githack.com/EMERALD0874/Steam-Deck-Themes/0a5a3649d0243eb9046a6f34f84a02d484bc1bca/resources/fonts/optima-nova-lt-black.otf?raw=true");
-}
-
-* {
-  font-family: OptimaNova !important;
-  font-weight: normal !important;
-}
