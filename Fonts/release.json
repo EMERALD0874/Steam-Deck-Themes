@@ -1,0 +1,12 @@
+{
+  "include": [
+    "fonts/bahnschrift.ttf",
+    "fonts/JosefinSans.ttf",
+    "fonts/Montserrat-Bold.ttf",
+    "fonts/Montserrat-Regular.ttf",
+    "fonts/optima-nova-lt-black.otf",
+    "fonts/Roboto-Bold.ttf",
+    "fonts/Roboto-Regular.ttf"
+  ],
+  "ignore": []
+}
