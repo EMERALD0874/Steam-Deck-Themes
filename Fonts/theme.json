@@ -2,8 +2,8 @@
   "name": "Fonts",
   "description": "This theme adds a variety of fonts and control over capitalization to the Steam Deck. Fonts used in any of my other themes as well as certain unique fonts are available through this theme. Additional fonts can be contributed through an issue on the GitHub repository.",
   "author": "EMERALD#0874",
-  "version": "v1.1",
-  "manifest_version": 2,
+  "version": "v2.0",
+  "manifest_version": 3,
   "inject": {},
   "target": "System-Wide",
   "patches": {
@@ -13,16 +13,19 @@
       "values": {
         "None": {},
         "Bahnschrift": {
-          "font/bahnschrift.css": ["SP", "MainMenu", "QuickAccess"]
+          "font-css/bahnschrift.css": ["SP", "MainMenu", "QuickAccess"]
+        },
+        "Josefin Sans": {
+          "font-css/josefin-sans.css": ["SP", "MainMenu", "QuickAccess"]
         },
         "Montserrat": {
-          "font/montserrat.css": ["SP", "MainMenu", "QuickAccess"]
+          "font-css/montserrat.css": ["SP", "MainMenu", "QuickAccess"]
         },
         "Optima Nova": {
-          "font/optima-nova.css": ["SP", "MainMenu", "QuickAccess"]
+          "font-css/optima-nova.css": ["SP", "MainMenu", "QuickAccess"]
         },
         "Roboto": {
-          "font/roboto.css": ["SP", "MainMenu", "QuickAccess"]
+          "font-css/roboto.css": ["SP", "MainMenu", "QuickAccess"]
         }
       }
     },

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: OptimaNova;
+  src: url("/themes_custom/Fonts/fonts/optima-nova-lt-black.otf");
+}
+
+* {
+  font-family: OptimaNova !important;
+  font-weight: normal !important;
+}
