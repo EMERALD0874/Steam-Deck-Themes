@@ -15,6 +15,9 @@
         "Bahnschrift": {
           "font-css/bahnschrift.css": ["SP", "MainMenu", "QuickAccess"]
         },
+        "Josefin Sans": {
+          "font-css/josefin-sans.css": ["SP", "MainMenu", "QuickAccess"]
+        },
         "Montserrat": {
           "font-css/montserrat.css": ["SP", "MainMenu", "QuickAccess"]
         },

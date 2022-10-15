@@ -1,0 +1,8 @@
+@font-face {
+  font-family: JosefinSans;
+  src: url("/themes_custom/Fonts/fonts/JosefinSans.ttf");
+}
+
+* {
+  font-family: JosefinSans !important;
+}
