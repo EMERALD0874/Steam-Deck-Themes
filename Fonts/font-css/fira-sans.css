@@ -1,0 +1,8 @@
+@font-face {
+  font-family: FiraSans;
+  src: url("/themes_custom/Fonts/fonts/FiraSans-Regular.ttf");
+}
+
+* {
+  font-family: FiraSans !important;
+}

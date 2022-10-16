@@ -15,8 +15,14 @@
         "Bahnschrift": {
           "font-css/bahnschrift.css": ["SP", "MainMenu", "QuickAccess"]
         },
+        "Fira Sans": {
+          "font-css/fira-sans.css": ["SP", "MainMenu", "QuickAccess"]
+        },
         "Josefin Sans": {
           "font-css/josefin-sans.css": ["SP", "MainMenu", "QuickAccess"]
+        },
+        "Lato": {
+          "font-css/lato.css": ["SP", "MainMenu", "QuickAccess"]
         },
         "Montserrat": {
           "font-css/montserrat.css": ["SP", "MainMenu", "QuickAccess"]
