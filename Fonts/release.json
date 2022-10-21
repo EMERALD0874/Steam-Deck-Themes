@@ -1,7 +1,9 @@
 {
   "include": [
     "fonts/bahnschrift.ttf",
+    "fonts/FiraSans-Regular.ttf",
     "fonts/JosefinSans.ttf",
+    "fonts/Lato-Regular.ttf",
     "fonts/Montserrat-Bold.ttf",
     "fonts/Montserrat-Regular.ttf",
     "fonts/optima-nova-lt-black.otf",
