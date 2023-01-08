@@ -13,25 +13,60 @@
       "values": {
         "None": {},
         "Bahnschrift": {
-          "font-css/bahnschrift.css": ["SP", "MainMenu", "QuickAccess"]
+          "font-css/bahnschrift.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Libre Franklin": {
+          "font-css/libre-franklin.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
         },
         "Fira Sans": {
-          "font-css/fira-sans.css": ["SP", "MainMenu", "QuickAccess"]
+          "font-css/fira-sans.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
         },
         "Josefin Sans": {
-          "font-css/josefin-sans.css": ["SP", "MainMenu", "QuickAccess"]
+          "font-css/josefin-sans.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
         },
         "Lato": {
-          "font-css/lato.css": ["SP", "MainMenu", "QuickAccess"]
+          "font-css/lato.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
         },
         "Montserrat": {
-          "font-css/montserrat.css": ["SP", "MainMenu", "QuickAccess"]
+          "font-css/montserrat.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
         },
         "Optima Nova": {
-          "font-css/optima-nova.css": ["SP", "MainMenu", "QuickAccess"]
+          "font-css/optima-nova.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
         },
         "Roboto": {
-          "font-css/roboto.css": ["SP", "MainMenu", "QuickAccess"]
+          "font-css/roboto.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
         }
       }
     },
@@ -41,10 +76,18 @@
       "values": {
         "None": {},
         "Standard Case": {
-          "case/standard-case.css": ["SP", "MainMenu", "QuickAccess"]
+          "case/standard-case.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
         },
         "Uppercase": {
-          "case/uppercase.css": ["SP", "MainMenu", "QuickAccess"]
+          "case/uppercase.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
         }
       }
     }
