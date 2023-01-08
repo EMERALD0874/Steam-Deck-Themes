@@ -19,13 +19,6 @@
             "QuickAccess"
           ]
         },
-        "Libre Franklin": {
-          "font-css/libre-franklin.css": [
-            "SP",
-            "MainMenu",
-            "QuickAccess"
-          ]
-        },
         "Fira Sans": {
           "font-css/fira-sans.css": [
             "SP",
@@ -42,6 +35,13 @@
         },
         "Lato": {
           "font-css/lato.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Libre Franklin": {
+          "font-css/libre-franklin.css": [
             "SP",
             "MainMenu",
             "QuickAccess"
