@@ -32,6 +32,9 @@
         },
         "Roboto": {
           "font-css/roboto.css": ["SP", "MainMenu", "QuickAccess"]
+        },
+        "Noto Sans": {
+          "font-css/notosans.css": ["SP", "MainMenu", "QuickAccess"]
         }
       }
     },

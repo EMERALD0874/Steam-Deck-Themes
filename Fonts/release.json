@@ -8,7 +8,9 @@
     "fonts/Montserrat-Regular.ttf",
     "fonts/optima-nova-lt-black.otf",
     "fonts/Roboto-Bold.ttf",
-    "fonts/Roboto-Regular.ttf"
+    "fonts/Roboto-Regular.ttf",
+    "fonts/NotoSansSC-Regular.otf",
+    "fonts/NotoSansSC-Bold.otf"
   ],
   "ignore": []
 }
