@@ -43,8 +43,14 @@
         "Standard Case": {
           "case/standard-case.css": ["SP", "MainMenu", "QuickAccess"]
         },
+        "Capitalize": {
+          "case/capitalize.css": ["SP", "MainMenu", "QuickAccess"]
+        },
         "Uppercase": {
           "case/uppercase.css": ["SP", "MainMenu", "QuickAccess"]
+        },
+        "Lowercase": {
+          "case/lowercase.css": ["SP", "MainMenu", "QuickAccess"]
         }
       }
     }
