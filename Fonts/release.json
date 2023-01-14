@@ -1,6 +1,8 @@
 {
   "include": [
+    "fonts/AndroidInsomniaRegular.ttf",
     "fonts/bahnschrift.ttf",
+    "fonts/DePixelBreit.ttf",
     "fonts/FiraSans-Regular.ttf",
     "fonts/JosefinSans.ttf",
     "fonts/Lato-Regular.ttf",

@@ -1,8 +1,8 @@
 {
   "name": "Fonts",
-  "description": "This theme adds a variety of fonts and control over capitalization to the Steam Deck. Fonts used in any of my other themes as well as certain unique fonts are available through this theme. Additional fonts can be contributed through an issue on the GitHub repository.",
+  "description": "This theme adds a variety of fonts and control over capitalization to the Steam Deck. Fonts used in any of my other themes as well as certain unique fonts are available through this theme. If you would like to add your own font, a CSS template is provided.",
   "author": "EMERALD#0874",
-  "version": "v2.0",
+  "version": "v3.0",
   "manifest_version": 3,
   "inject": {},
   "target": "System-Wide",
@@ -12,8 +12,14 @@
       "type": "dropdown",
       "values": {
         "None": {},
+        "Android Insomnia": {
+          "font-css/android-insomnia.css": ["SP", "MainMenu", "QuickAccess"]
+        },
         "Bahnschrift": {
           "font-css/bahnschrift.css": ["SP", "MainMenu", "QuickAccess"]
+        },
+        "DePixel Breit": {
+          "font-css/depixel.css": ["SP", "MainMenu", "QuickAccess"]
         },
         "Fira Sans": {
           "font-css/fira-sans.css": ["SP", "MainMenu", "QuickAccess"]
@@ -32,6 +38,9 @@
         },
         "Roboto": {
           "font-css/roboto.css": ["SP", "MainMenu", "QuickAccess"]
+        },
+        "Custom Template": {
+          "font-css/custom.css": ["SP", "MainMenu", "QuickAccess"]
         }
       }
     },

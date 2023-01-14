@@ -1,0 +1,43 @@
+/*
+Welcome to the custom file for the Fonts theme. To add your own font,
+follow these steps:
+
+1. Find a font you like on Google Fonts or another site. Download it
+   and put it in the Fonts/fonts folder.
+
+2. Edit the @font-face section below to point to your font file. You
+   can also add a second @font-face section to add a bold version of
+   your font (an example is commented below).
+
+3. Edit the * section below to set your font as the default font for
+   the theme. You can also add additional selectors to set your font
+   for specific elements, but the default behavior is to set the font
+   for all elements.
+
+4. Edit the theme.json file to add your font to the list of fonts
+   available in the theme settings. You can edit the provided "Custom
+   Template" font name if you haven't changed this CSS file name. You
+   can also choose what parts of the Steam Deck UI your font will
+   affect by changing the tabs (ex. "SP", "MainMenu", "QuickAccess").
+
+5. You're done! Enter Gaming Mode and go to the theme settings to
+   select your font. If you don't see your font in the list, try
+   refreshing the page.
+*/
+
+@font-face {
+  font-family: FontNameHere;
+  src: url("/themes_custom/Fonts/fonts/Roboto-Regular.ttf");
+}
+
+/*
+@font-face {
+  font-family: FontNameHere;
+  src: url("/themes_custom/Fonts/fonts/Roboto-Bold.ttf");
+  font-weight: bold;
+}
+*/
+
+* {
+  font-family: FontNameHere !important;
+}

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: DePixelBreit;
+  src: url("/themes_custom/Fonts/fonts/DePixelBreit.ttf");
+}
+
+* {
+  font-family: DePixelBreit !important;
+}
