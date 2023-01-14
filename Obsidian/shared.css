@@ -24,7 +24,14 @@ HOME PAGE
   background: var(--obsidian-main-color) !important;
 }
 .gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
-  background: none;
+  background: -webkit-gradient(
+      linear,
+      left 80%,
+      left 90%,
+      from(rgba(0, 0, 0, 0)),
+      to(var(--obsidian-main-color))
+    ),
+    -webkit-gradient(linear, 0% 0%, 100% 0%, color-stop(1%, var(--obsidian-main-color)), color-stop(5%, rgba(0, 0, 0, 0)), color-stop(95%, rgba(0, 0, 0, 0)), color-stop(99%, var(--obsidian-main-color)));
 }
 
 /*
