@@ -1,0 +1,11 @@
+/*
+~ RECENT GAMES ~
+*/
+.gamepadhomerecentgames_RecentGamesInnerContainer_282X0
+  > div
+  > div
+  > .basicgamecarousel_BasicGameCarousel_3MdH5 {
+  background-image: url("/themes_custom/Phantom/images/recents.png");
+  background-size: contain;
+  background-attachment: local;
+}

@@ -3,9 +3,9 @@
   "description": "Join The Phantom Thieves of Hearts with this theme that stylizes your recent games and library to look like the UI from Persona 5. Obsidian is recommended to be used alongside this theme.",
   "author": "EMERALD#0874",
   "target": "System-Wide",
-  "version": "v2.1",
+  "version": "v2.2",
   "manifest_version": 2,
-  "inject": { "shared.css": ["SP"] },
+  "inject": {},
   "patches": {
     "Color Choice": {
       "default": "Red (Joker / Violet)",
@@ -55,6 +55,22 @@
       "values": {
         "Yes": { "flat.css": ["SP"] },
         "No": {}
+      }
+    },
+    "Style": {
+      "default": "All",
+      "type": "dropdown",
+      "values": {
+        "All": {
+          "games.css": ["SP"],
+          "zigzag.css": ["SP"]
+        },
+        "Background Only": {
+          "zigzag.css": ["SP"]
+        },
+        "Banners Only": {
+          "games.css": ["SP"]
+        }
       }
     }
   }

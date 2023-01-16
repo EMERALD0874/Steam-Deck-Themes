@@ -1,0 +1,160 @@
+/*
+~ RECENT GAMES ~
+*/
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
+  outline: none;
+  animation: none;
+}
+.appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd
+  > img,
+.appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A-
+  > .libraryassetimage_LandscapeImage_ZsU8n
+  > img,
+.appgrid_YourCollection_11p6F
+  > *
+  > .appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd
+  > img {
+  top: 7%;
+  left: 7%;
+  width: 86%;
+  height: 86%;
+}
+/* Most recent game */
+.appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A- {
+  background-image: url("/themes_custom/Phantom/images/landscape_1.png");
+  background-size: cover;
+  -webkit-mask-image: url("/themes_custom/Phantom/images/landscape_1_mask2.png");
+  -webkit-mask-size: cover;
+}
+.appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A-
+  > .libraryassetimage_LandscapeImage_ZsU8n {
+  -webkit-mask-image: url("/themes_custom/Phantom/images/landscape_1_mask.png");
+  -webkit-mask-size: cover;
+}
+/* First in both, fifth in library */
+*:nth-child(4n-2)
+  > *
+  > *
+  > *
+  > *
+  > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J,
+.appgrid_YourCollection_11p6F > *:nth-child(5n-4) > .appportrait_Portrait_1Pf6J,
+.appgrid_YourCollection_11p6F > *:nth-child(5n) > .appportrait_Portrait_1Pf6J {
+  background-image: url("/themes_custom/Phantom/images/portrait_1.png");
+  background-size: cover;
+  -webkit-mask-image: url("/themes_custom/Phantom/images/portrait_1_mask2.png");
+  -webkit-mask-size: cover;
+}
+*:nth-child(4n-2)
+  > *
+  > *
+  > *
+  > *
+  > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd,
+.appgrid_YourCollection_11p6F
+  > *:nth-child(5n-4)
+  > .appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd,
+.appgrid_YourCollection_11p6F
+  > *:nth-child(5n)
+  > .appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd {
+  -webkit-mask-image: url("/themes_custom/Phantom/images/portrait_1_mask.png");
+  -webkit-mask-size: cover;
+}
+/* Second */
+*:nth-child(4n-1)
+  > *
+  > *
+  > *
+  > *
+  > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J,
+.appgrid_YourCollection_11p6F
+  > *:nth-child(5n-3)
+  > .appportrait_Portrait_1Pf6J {
+  background-image: url("/themes_custom/Phantom/images/portrait_2.png");
+  background-size: cover;
+  -webkit-mask-image: url("/themes_custom/Phantom/images/portrait_2.png");
+  -webkit-mask-size: cover;
+}
+*:nth-child(4n-1)
+  > *
+  > *
+  > *
+  > *
+  > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd,
+.appgrid_YourCollection_11p6F
+  > *:nth-child(5n-3)
+  > .appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd {
+  -webkit-mask-image: url("/themes_custom/Phantom/images/portrait_2_mask.png");
+  -webkit-mask-size: cover;
+}
+/* Third */
+*:nth-child(4n)
+  > *
+  > *
+  > *
+  > *
+  > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J,
+.appgrid_YourCollection_11p6F
+  > *:nth-child(5n-2)
+  > .appportrait_Portrait_1Pf6J {
+  background-image: url("/themes_custom/Phantom/images/portrait_3.png");
+  background-size: cover;
+  -webkit-mask-image: url("/themes_custom/Phantom/images/portrait_3_mask2.png");
+  -webkit-mask-size: cover;
+}
+*:nth-child(4n)
+  > *
+  > *
+  > *
+  > *
+  > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd,
+.appgrid_YourCollection_11p6F
+  > *:nth-child(5n-2)
+  > .appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd {
+  -webkit-mask-image: url("/themes_custom/Phantom/images/portrait_3_mask.png");
+  -webkit-mask-size: cover;
+}
+/* Fourth */
+*:nth-child(4n-3)
+  > *
+  > *
+  > *
+  > *
+  > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J,
+.appgrid_YourCollection_11p6F
+  > *:nth-child(5n-1)
+  > .appportrait_Portrait_1Pf6J {
+  background-image: url("/themes_custom/Phantom/images/portrait_4.png");
+  background-size: cover;
+  -webkit-mask-image: url("/themes_custom/Phantom/images/portrait_4_mask2.png");
+  -webkit-mask-size: cover;
+}
+*:nth-child(4n-3)
+  > *
+  > *
+  > *
+  > *
+  > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd,
+.appgrid_YourCollection_11p6F
+  > *:nth-child(5n-1)
+  > .appportrait_Portrait_1Pf6J
+  > .libraryassetimage_PortraitImage_3Ehhd {
+  -webkit-mask-image: url("/themes_custom/Phantom/images/portrait_4_mask.png");
+  -webkit-mask-size: cover;
+}
+/* View more */
+.basicgamecarousel_BasicGameCarouselItem_3YYQ9
+  .basicgamecarousel_TextBoxCarouselContents_3bvCH {
+  background: linear-gradient(313deg, #333333, #555555);
+  border: 6px black solid;
+}
