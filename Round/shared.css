@@ -17,7 +17,7 @@ button.gamepaddialog_Button_1kn70.DialogButton:hover,
 button.gamepaddialog_Button_1kn70.DialogButton:hover.Primary,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary,
-div.basiccontextmenu_contextMenuContents_TBSbv {
+div.gamepadcontextmenu_contextMenuContents_sIgB- {
   border-radius: var(--round-radius-size);
 }
 .ModalPosition_Content
@@ -57,7 +57,9 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
 .steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:last-child {
   border-radius: var(--round-radius-size);
 }
-.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:nth-of-type(1):nth-last-child(3) {
+.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:nth-of-type(
+    1
+  ):nth-last-child(3) {
   border-radius: var(--round-radius-size) !important;
 }
 .BasicUI
@@ -294,7 +296,9 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
 }
 
 /* Exit Game Dialog */
-.gamepaddialog_GamepadDialogContent_3joNk:not(.gamepadpagedsettings_PagedSettingsDialog_PageContent_wIOLO) {
+.gamepaddialog_GamepadDialogContent_3joNk:not(
+    .gamepadpagedsettings_PagedSettingsDialog_PageContent_wIOLO
+  ) {
   border-radius: var(--round-radius-size);
 }
 
@@ -321,28 +325,33 @@ div.basiccontextmenu_contextMenuContents_TBSbv {
   The majority of styles in this section were removed due to each container 
   lacking the specificity needed to properly style them
 */
-.basiccontextmenu_contextMenuContents_TBSbv:first-child
-  .basiccontextmenu_ContextMenuSeparator_zVMb1 {
-  /* 
-    This is here as sometimes the menu separators get stuck at 0px height and you can't change it with css
-    so instead of relying on the height property, we use padding. 
-  */
+.gamepadcontextmenu_contextMenuContents_sIgB-:first-child
+  .gamepadcontextmenu_ContextMenuSeparator_1KL6n {
   height: 0px;
   padding-top: 2px;
 }
 
-.basiccontextmenu_contextMenuContents_TBSbv:first-child:not(.basiccontextmenu_hasSubMenu_1Mql2)
-  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(1),
-.basiccontextmenu_contextMenuContents_TBSbv:first-child.basiccontextmenu_hasSubMenu_1Mql2
-  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(2) {
+.gamepadcontextmenu_contextMenuContents_sIgB-:first-child:not(
+    .gamepadcontextmenu_SubMenu_1_tPN
+  )
+  .gamepadcontextmenu_contextMenuItem_1sdvo:nth-last-child(1),
+.gamepadcontextmenu_contextMenuContents_sIgB-:first-child.gamepadcontextmenu_SubMenu_1_tPN
+  .gamepadcontextmenu_contextMenuItem_1sdvo:nth-last-child(2) {
   border-radius: var(--round-radius-size);
 }
 
-.basiccontextmenu_contextMenuContents_TBSbv:first-child:not(.basiccontextmenu_hasSubMenu_1Mql2)
-  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(3),
-.basiccontextmenu_contextMenuContents_TBSbv:first-child.basiccontextmenu_hasSubMenu_1Mql2
-  .basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(4) {
+.gamepadcontextmenu_contextMenuContents_sIgB-:first-child:not(
+    .gamepadcontextmenu_SubMenu_1_tPN
+  )
+  .gamepadcontextmenu_contextMenuItem_1sdvo:nth-last-child(3),
+.gamepadcontextmenu_contextMenuContents_sIgB-:first-child.gamepadcontextmenu_SubMenu_1_tPN
+  .gamepadcontextmenu_contextMenuItem_1sdvo:nth-last-child(4) {
   border-radius: 0px 0px var(--round-radius-size) var(--round-radius-size);
+}
+
+.gamepadcontextmenu_contextMenuItem_1sdvo:first-child {
+  border-top-left-radius: var(--round-radius-size);
+  border-top-right-radius: var(--round-radius-size);
 }
 
 .BasicUI .appactionbutton_ButtonChild_2AzIX {

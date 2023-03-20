@@ -3,7 +3,7 @@
   "description": "This theme adds round edges to any image that can reasonably have them. Certain images like achievements, trading cards, and profile pictures have been left as-is to avoid removing any detail. Anything largely rectangular or difficult to round (ex. sets of buttons, chat, header) has also been left as-is.",
   "author": "EMERALD#0874",
   "target": "System-Wide",
-  "version": "v2.2",
+  "version": "v2.3",
   "manifest_version": 2,
   "inject": {
     "shared.css": ["SP", "MainMenu", "QuickAccess"]
