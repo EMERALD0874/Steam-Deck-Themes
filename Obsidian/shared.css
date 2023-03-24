@@ -226,7 +226,3 @@ OTHER
 .gamepaddialog_ModalPosition_30VHl > .gamepaddialog_GamepadDialogContent_3joNk {
   background: var(--obsidian-main-color) !important;
 }
-/* Lock screen */
-.lockscreen_Container_3rFFU {
-  background: var(--obsidian-main-color) !important;
-}

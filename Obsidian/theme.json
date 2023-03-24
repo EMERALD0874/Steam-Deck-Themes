@@ -42,6 +42,20 @@
           "violet.css": ["SP", "MainMenu", "QuickAccess"]
         }
       }
+    },
+    "Apply on lock screen": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"No": {},
+				"Yes": {
+					"lockscreen.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				}
+			}
     }
   }
 }
