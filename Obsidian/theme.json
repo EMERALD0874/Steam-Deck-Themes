@@ -2,8 +2,8 @@
   "name": "Obsidian",
   "description": "This theme is based off of pure black themes commonly created for AMOLED devices. Although the Steam Deck has an LCD screen, I find the darker colors easier on my eyes and less Steam-themed. There are also options for dark gray, gray, and dark variants of all colors of the rainbow.",
   "author": "EMERALD#0874",
-  "version": "v2.2",
-  "manifest_version": 2,
+  "version": "v3.0",
+  "manifest_version": 6,
   "inject": {
     "shared.css": ["SP", "MainMenu", "QuickAccess"]
   },
@@ -40,8 +40,23 @@
         },
         "Violet": {
           "violet.css": ["SP", "MainMenu", "QuickAccess"]
+        },
+        "Custom": {}
+      },
+      "components": [
+        {
+          "name": "Background Color",
+          "type": "color-picker",
+          "on": "Custom",
+          "default": "#000",
+          "css_variable": "--obsidian-main-color",
+          "tabs": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
         }
-      }
+      ]
     }
   }
 }
