@@ -5,7 +5,7 @@
   "version": "v3.0",
   "manifest_version": 6,
   "inject": {
-    "shared.css": ["SP", "MainMenu", "QuickAccess"]
+    "shared.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
   },
   "target": "System-Wide",
   "patches": {
@@ -15,31 +15,31 @@
       "values": {
         "Black": {},
         "Dark Gray": {
-          "dark-gray.css": ["SP", "MainMenu", "QuickAccess"]
+          "dark-gray.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
         },
         "Gray": {
-          "gray.css": ["SP", "MainMenu", "QuickAccess"]
+          "gray.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
         },
         "Red": {
-          "red.css": ["SP", "MainMenu", "QuickAccess"]
+          "red.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
         },
         "Orange": {
-          "orange.css": ["SP", "MainMenu", "QuickAccess"]
+          "orange.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
         },
         "Yellow": {
-          "yellow.css": ["SP", "MainMenu", "QuickAccess"]
+          "yellow.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
         },
         "Green": {
-          "green.css": ["SP", "MainMenu", "QuickAccess"]
+          "green.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
         },
         "Blue": {
-          "blue.css": ["SP", "MainMenu", "QuickAccess"]
+          "blue.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
         },
         "Indigo": {
-          "indigo.css": ["SP", "MainMenu", "QuickAccess"]
+          "indigo.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
         },
         "Violet": {
-          "violet.css": ["SP", "MainMenu", "QuickAccess"]
+          "violet.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
         },
         "Custom": {}
       },
