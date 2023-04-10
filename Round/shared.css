@@ -381,5 +381,5 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
 
 /* Add Support for ProtonDB Badge plugin by OMGDuke */
 .protondb-decky-indicator {
-  border-radius: var(--round-radius-size);
+  border-radius: var(--round-radius-size) !important;
 }
