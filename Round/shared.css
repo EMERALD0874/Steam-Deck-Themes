@@ -354,6 +354,15 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
   border-top-right-radius: var(--round-radius-size);
 }
 
+.gamepadcontextmenu_contextMenuContents_sIgB->:last-child {
+  border-bottom-left-radius: var(--round-radius-size);
+  border-bottom-right-radius: var(--round-radius-size);
+}
+
+.gamepadcontextmenu_contextMenuContents_sIgB- {
+  margin-left: 5px;
+}
+
 .BasicUI .appactionbutton_ButtonChild_2AzIX {
   overflow: hidden;
 }
