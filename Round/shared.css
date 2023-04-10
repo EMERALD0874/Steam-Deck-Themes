@@ -331,24 +331,6 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
   padding-top: 2px;
 }
 
-.gamepadcontextmenu_contextMenuContents_sIgB-:first-child:not(
-    .gamepadcontextmenu_SubMenu_1_tPN
-  )
-  .gamepadcontextmenu_contextMenuItem_1sdvo:nth-last-child(1),
-.gamepadcontextmenu_contextMenuContents_sIgB-:first-child.gamepadcontextmenu_SubMenu_1_tPN
-  .gamepadcontextmenu_contextMenuItem_1sdvo:nth-last-child(2) {
-  border-radius: var(--round-radius-size);
-}
-
-.gamepadcontextmenu_contextMenuContents_sIgB-:first-child:not(
-    .gamepadcontextmenu_SubMenu_1_tPN
-  )
-  .gamepadcontextmenu_contextMenuItem_1sdvo:nth-last-child(3),
-.gamepadcontextmenu_contextMenuContents_sIgB-:first-child.gamepadcontextmenu_SubMenu_1_tPN
-  .gamepadcontextmenu_contextMenuItem_1sdvo:nth-last-child(4) {
-  border-radius: 0px 0px var(--round-radius-size) var(--round-radius-size);
-}
-
 .gamepadcontextmenu_contextMenuItem_1sdvo:first-child {
   border-top-left-radius: var(--round-radius-size);
   border-top-right-radius: var(--round-radius-size);
