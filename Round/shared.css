@@ -363,6 +363,10 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
   margin-left: 5px;
 }
 
+.contextMenuGameOptions {
+  border-radius: 0px !important;
+}
+
 .BasicUI .appactionbutton_ButtonChild_2AzIX {
   overflow: hidden;
 }
