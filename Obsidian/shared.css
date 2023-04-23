@@ -141,6 +141,9 @@ FRIENDS & CHAT
   background-color: var(--obsidian-main-color) !important;
   background: var(--obsidian-main-color) !important;
 }
+.friendinvites_InvitesList_3i8Fo {
+  background-color: var(--obsidian-main-color) !important;
+}
 
 /*
 DOWNLOADS
@@ -243,7 +246,12 @@ OTHER
   background: var(--obsidian-main-color) !important;
 }
 /* Notification */
+/* Notification (Stable) */
 .notificationcontent_ShortTemplate_2w-Eq, .notificationcontent_PinnedTemplate_H_NPi, .notificationcontent_StandardTemplate_1B_uv, .notificationcontent_ShortTemplate_nwer8, .notificationcontent_StandardTemplate_5HZT7, .notificationcontent_PinnedTemplateDesktop_1-8YO, .notificationcontent_PinnedTemplate_1X-O1 {
+  background: var(--obsidian-main-color) !important;
+}
+/* Notification (Beta) */
+.shorttemplates_ShortTemplate_29NLb {
   background: var(--obsidian-main-color) !important;
 }
 /* Tabbed Page Contents */
@@ -254,7 +262,27 @@ OTHER
 .loadingthrobber_Container_3sa1N, .loadingthrobber_Container_3sa1N.loadingthrobber_PreloadThrobber_1-epa {
   background: var(--obsidian-main-color) !important;
 }
+.spinnyboi {
+  background: var(--obsidian-main-color) !important;
+}
 /* Lock screen */
 .lockscreen_Container_3rFFU {
   background: var(--obsidian-main-color) !important;
+}
+/* Console */
+.console_Console_1fuML {
+  background-color: var(--obsidian-main-color) !important;
+}
+.console_Suggestion_3C1UC {
+  color: #ffffff;
+}
+/* Other Steam Big Picture Mode Components */
+/* Settings Container */
+.settings-container {
+  background-color: var(--obsidian-main-color) !important;
+}
+/* Scroll Panel */
+.scrollpanel_ScrollPanel_1CXdi, .scrollpanel_ScrollY_313lB {
+  background: var(--obsidian-main-color) !important;
+  background-color: var(--obsidian-main-color) !important;
 }
