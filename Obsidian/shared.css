@@ -141,6 +141,9 @@ FRIENDS & CHAT
   background-color: var(--obsidian-main-color) !important;
   background: var(--obsidian-main-color) !important;
 }
+.friendinvites_InvitesList_3i8Fo {
+  background-color: var(--obsidian-main-color) !important;
+}
 
 /*
 DOWNLOADS
@@ -210,6 +213,14 @@ QUICK ACCESS
 OTHER
 */
 
+/* Context menu buttons */
+/* Don't set !important as it's break button highlight color */
+.gamepadcontextmenu_contextMenuItem_1sdvo{
+  background: var(--obsidian-main-color); 
+}
+.gamepadcontextmenu_contextMenuItem_1sdvo.Stream,.gamepadcontextmenu_contextMenuItem_1sdvo.Connect,.gamepadcontextmenu_contextMenuItem_1sdvo.Launch,.gamepadcontextmenu_contextMenuItem_1sdvo.PlayMusic,.gamepadcontextmenu_contextMenuItem_1sdvo.Play,.gamepadcontextmenu_contextMenuItem_1sdvo.Resume,.gamepadcontextmenu_contextMenuItem_1sdvo.BorrowApp,.gamepadcontextmenu_contextMenuItem_1sdvo.Download,.gamepadcontextmenu_contextMenuItem_1sdvo.Update,.gamepadcontextmenu_contextMenuItem_1sdvo.PreLoad,.gamepadcontextmenu_contextMenuItem_1sdvo.Install,.gamepadcontextmenu_contextMenuItem_1sdvo.Pause,.gamepadcontextmenu_contextMenuItem_1sdvo.Stop,.gamepadcontextmenu_contextMenuItem_1sdvo.Cancel{
+  background: var(--obsidian-main-color);
+}
 /* Navigation */
 .mainmenu_Menu_23IDi {
   background: var(--obsidian-main-color) !important;
@@ -222,7 +233,52 @@ OTHER
 .gamepadsearch_GamepadSearch_P_AlE {
   background: var(--obsidian-main-color) !important;
 }
+/* Volume panel */
+/* Don't set !important as it's not required */
+.audio_VolumePopin_2iUUM {
+  background: var(--obsidian-main-color);
+}
+.gamepadslider_SliderTrack_Mq25N {
+  background: #23262e;
+}
 /* Media upload */
 .gamepaddialog_ModalPosition_30VHl > .gamepaddialog_GamepadDialogContent_3joNk {
   background: var(--obsidian-main-color) !important;
+}
+/* Notification */
+/* Notification (Stable) */
+.notificationcontent_ShortTemplate_2w-Eq, .notificationcontent_PinnedTemplate_H_NPi, .notificationcontent_StandardTemplate_1B_uv, .notificationcontent_ShortTemplate_nwer8, .notificationcontent_StandardTemplate_5HZT7, .notificationcontent_PinnedTemplateDesktop_1-8YO, .notificationcontent_PinnedTemplate_1X-O1 {
+  background: var(--obsidian-main-color) !important;
+}
+/* Notification (Beta) */
+.shorttemplates_ShortTemplate_29NLb {
+  background: var(--obsidian-main-color) !important;
+}
+/* Tabbed Page Contents */
+.gamepadtabbedpage_TabContents_WDa0_ {
+  background: var(--obsidian-main-color) !important;
+}
+/* Loading Screen */
+.loadingthrobber_Container_3sa1N, .loadingthrobber_Container_3sa1N.loadingthrobber_PreloadThrobber_1-epa {
+  background: var(--obsidian-main-color) !important;
+}
+.spinnyboi {
+  background: var(--obsidian-main-color) !important;
+}
+/* Console */
+.console_Console_1fuML {
+  background-color: var(--obsidian-main-color) !important;
+}
+.console_Suggestion_3C1UC {
+  color: #ffffff;
+}
+/* Other Steam Big Picture Mode Components */
+/* Settings Container */
+.settings-container {
+  background-color: var(--obsidian-main-color) !important;
+}
+/* Scroll Panel */
+.scrollpanel_ScrollPanel_1CXdi, .scrollpanel_ScrollY_313lB {
+  background: var(--obsidian-main-color) !important;
+  background-color: var(--obsidian-main-color) !important;
 }
