@@ -21,7 +21,7 @@ HOME PAGE
   background: var(--obsidian-main-color);
 }
 .gamepadhome_TabbedContent_cE1Sa {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
   background: -webkit-gradient(
@@ -42,10 +42,10 @@ LIBRARY
   background: var(--obsidian-main-color);
 }
 .steamdeckcompatfilter_CompatFilterDialog_21qvB {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .allcollections_Collection_3IWn- {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 
 /*
@@ -58,7 +58,7 @@ GAME DETAILS
 }
 .DeckVerifiedModalDialogClient .DialogContent,
 .DeckVerifiedModalDialog .DialogContent {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 
 /* 
@@ -88,28 +88,34 @@ STEAM INPUT
 }
 /* Turn backgrounds black */
 .controllerconfigurator_TopSection_20sN9 {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .controllerconfigurator_ControllerConfiguratorMain_APY6j {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .controllerconfigurator_BottomSection_3RsRf {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .gamepadpage_GamepadPage_2FqpD.gamepadpage_DialogBackground_2msTK {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .controllerconfigurator_interstitial_ConfiguratorInterstitialContainer_3FS5u {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
+}
+.controllerconfiguratorchoosebinding_CardinalButtonGroup_3-2qP.controllerconfiguratorchoosebinding_Circle_XDwww::before {
+  z-index: 10;
+}
+.controllerconfiguratorchoosebinding_CardinalButtonGroup_3-2qP.controllerconfiguratorchoosebinding_Diamond_32vdo::before {
+  z-index: 10;
 }
 
 /* 
@@ -122,27 +128,27 @@ FRIENDS & CHAT
 }
 /* Turn backgrounds black */
 .GamepadMode.friendlist.gpfocuswithin .FriendsListSteamDeckTopSection {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .GamepadMode.friendlist {
-  background-color: var(--obsidian-main-color) !important;
-  background: var(--obsidian-main-color) !important;
+  background-color: var(--obsidian-main-color);
+  background: var(--obsidian-main-color);
 }
 .GamepadMode.friendlist.gpfocuswithin {
-  background-color: var(--obsidian-main-color) !important;
-  background: var(--obsidian-main-color) !important;
+  background-color: var(--obsidian-main-color);
+  background: var(--obsidian-main-color);
 }
 .multiChatDialog.GamepadMode,
 .GamepadMode .multiChatDialog {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .multiChatDialog.GamepadMode.gpfocuswithin,
 .GamepadMode .multiChatDialog.gpfocuswithin {
-  background-color: var(--obsidian-main-color) !important;
-  background: var(--obsidian-main-color) !important;
+  background-color: var(--obsidian-main-color);
+  background: var(--obsidian-main-color);
 }
 .friendinvites_InvitesList_3i8Fo {
-  background-color: var(--obsidian-main-color) !important;
+  background-color: var(--obsidian-main-color);
 }
 
 /*
@@ -157,19 +163,19 @@ DOWNLOADS
 }
 /* Turn backgrounds black */
 .downloads_DownloadsPage_1bq4x {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .downloadgraph_HeroAndLogo_3mZ2r.downloadgraph_Empty_pHDI1 {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .downloadgraph_GraphAndStats_3KDkL {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .BasicUI .libraryassetimage_GreyBackground_2E7G8 {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .downloads_SectionItem_1VNuY.downloads_Active_IbePL {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 
 /*
@@ -178,10 +184,10 @@ SETTINGS
 
 /* Turn backgrounds black */
 .BasicUI .librarysettings_LibrarySettings_2nsOY {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .BasicUI .contentmanagement_ContentManagement_3wk64 {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 
 /*
@@ -190,23 +196,23 @@ QUICK ACCESS
 
 /* Turn backgrounds black */
 .quickaccessmenu_QuickAccessMenu_V0cr- {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
-  background-color: #22262b !important;
+  background-color: #22262b;
 }
 .quickaccessmenu_Tab_1S76C {
-  background-color: var(--obsidian-main-color) !important;
+  background-color: var(--obsidian-main-color);
 }
 .quickaccessmenu_Title_34nl5 {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
   box-shadow: none;
 }
 .GamepadMode.friendlist {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 .GamepadMode.friendlist .FriendsListSteamDeckTabs {
-  background-color: var(--obsidian-main-color) !important;
+  background-color: var(--obsidian-main-color);
 }
 
 /*
@@ -215,23 +221,36 @@ OTHER
 
 /* Context menu buttons */
 /* Don't set !important as it's break button highlight color */
-.gamepadcontextmenu_contextMenuItem_1sdvo{
-  background: var(--obsidian-main-color); 
+.gamepadcontextmenu_contextMenuItem_1sdvo {
+  background: var(--obsidian-main-color);
 }
-.gamepadcontextmenu_contextMenuItem_1sdvo.Stream,.gamepadcontextmenu_contextMenuItem_1sdvo.Connect,.gamepadcontextmenu_contextMenuItem_1sdvo.Launch,.gamepadcontextmenu_contextMenuItem_1sdvo.PlayMusic,.gamepadcontextmenu_contextMenuItem_1sdvo.Play,.gamepadcontextmenu_contextMenuItem_1sdvo.Resume,.gamepadcontextmenu_contextMenuItem_1sdvo.BorrowApp,.gamepadcontextmenu_contextMenuItem_1sdvo.Download,.gamepadcontextmenu_contextMenuItem_1sdvo.Update,.gamepadcontextmenu_contextMenuItem_1sdvo.PreLoad,.gamepadcontextmenu_contextMenuItem_1sdvo.Install,.gamepadcontextmenu_contextMenuItem_1sdvo.Pause,.gamepadcontextmenu_contextMenuItem_1sdvo.Stop,.gamepadcontextmenu_contextMenuItem_1sdvo.Cancel{
+.gamepadcontextmenu_contextMenuItem_1sdvo.Stream,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Connect,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Launch,
+.gamepadcontextmenu_contextMenuItem_1sdvo.PlayMusic,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Play,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Resume,
+.gamepadcontextmenu_contextMenuItem_1sdvo.BorrowApp,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Download,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Update,
+.gamepadcontextmenu_contextMenuItem_1sdvo.PreLoad,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Install,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Pause,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Stop,
+.gamepadcontextmenu_contextMenuItem_1sdvo.Cancel {
   background: var(--obsidian-main-color);
 }
 /* Navigation */
 .mainmenu_Menu_23IDi {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 /* Power menu */
 .gamepadui_GamepadDialogOverlay_34Euf .ModalOverlayBackground {
-  background: var(--obsidian-main-color) 000dd !important;
+  background: var(--obsidian-main-color) 000dd;
 }
 /* Search */
 .gamepadsearch_GamepadSearch_P_AlE {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 /* Volume panel */
 /* Don't set !important as it's not required */
@@ -243,35 +262,42 @@ OTHER
 }
 /* Media upload */
 .gamepaddialog_ModalPosition_30VHl > .gamepaddialog_GamepadDialogContent_3joNk {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 /* Notification */
 /* Notification (Stable) */
-.notificationcontent_ShortTemplate_2w-Eq, .notificationcontent_PinnedTemplate_H_NPi, .notificationcontent_StandardTemplate_1B_uv, .notificationcontent_ShortTemplate_nwer8, .notificationcontent_StandardTemplate_5HZT7, .notificationcontent_PinnedTemplateDesktop_1-8YO, .notificationcontent_PinnedTemplate_1X-O1 {
-  background: var(--obsidian-main-color) !important;
+.notificationcontent_ShortTemplate_2w-Eq,
+.notificationcontent_PinnedTemplate_H_NPi,
+.notificationcontent_StandardTemplate_1B_uv,
+.notificationcontent_ShortTemplate_nwer8,
+.notificationcontent_StandardTemplate_5HZT7,
+.notificationcontent_PinnedTemplateDesktop_1-8YO,
+.notificationcontent_PinnedTemplate_1X-O1 {
+  background: var(--obsidian-main-color);
 }
 /* Notification (Beta) */
 .shorttemplates_ShortTemplate_29NLb {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 /* Tabbed Page Contents */
 .gamepadtabbedpage_TabContents_WDa0_ {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 /* Loading Screen */
-.loadingthrobber_Container_3sa1N, .loadingthrobber_Container_3sa1N.loadingthrobber_PreloadThrobber_1-epa {
-  background: var(--obsidian-main-color) !important;
+.loadingthrobber_Container_3sa1N,
+.loadingthrobber_Container_3sa1N.loadingthrobber_PreloadThrobber_1-epa {
+  background: var(--obsidian-main-color);
 }
 .spinnyboi {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 /* Lock screen */
 .lockscreen_Container_3rFFU {
-  background: var(--obsidian-main-color) !important;
+  background: var(--obsidian-main-color);
 }
 /* Console */
 .console_Console_1fuML {
-  background-color: var(--obsidian-main-color) !important;
+  background-color: var(--obsidian-main-color);
 }
 .console_Suggestion_3C1UC {
   color: #ffffff;
@@ -279,10 +305,11 @@ OTHER
 /* Other Steam Big Picture Mode Components */
 /* Settings Container */
 .settings-container {
-  background-color: var(--obsidian-main-color) !important;
+  background-color: var(--obsidian-main-color);
 }
 /* Scroll Panel */
-.scrollpanel_ScrollPanel_1CXdi, .scrollpanel_ScrollY_313lB {
-  background: var(--obsidian-main-color) !important;
-  background-color: var(--obsidian-main-color) !important;
+.scrollpanel_ScrollPanel_1CXdi,
+.scrollpanel_ScrollY_313lB {
+  background: var(--obsidian-main-color);
+  background-color: var(--obsidian-main-color);
 }
