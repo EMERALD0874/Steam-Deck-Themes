@@ -2,7 +2,7 @@
   "name": "Obsidian",
   "description": "This theme is based off of pure black themes commonly created for AMOLED devices. Although the Steam Deck has an LCD screen, I find the darker colors easier on my eyes and less Steam-themed. There are also options for dark gray, gray, and dark variants of all colors of the rainbow.",
   "author": "EMERALD#0874",
-  "version": "v3.1",
+  "version": "v3.4",
   "manifest_version": 6,
   "inject": {
     "shared.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
@@ -15,7 +15,12 @@
       "values": {
         "Black": {},
         "Dark Gray": {
-          "dark-gray.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
+          "dark-gray.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess",
+            "notificationtoasts.*"
+          ]
         },
         "Gray": {
           "gray.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
@@ -24,10 +29,20 @@
           "red.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
         },
         "Orange": {
-          "orange.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
+          "orange.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess",
+            "notificationtoasts.*"
+          ]
         },
         "Yellow": {
-          "yellow.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
+          "yellow.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess",
+            "notificationtoasts.*"
+          ]
         },
         "Green": {
           "green.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
@@ -36,10 +51,20 @@
           "blue.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
         },
         "Indigo": {
-          "indigo.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
+          "indigo.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess",
+            "notificationtoasts.*"
+          ]
         },
         "Violet": {
-          "violet.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
+          "violet.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess",
+            "notificationtoasts.*"
+          ]
         },
         "Custom": {}
       },
@@ -50,11 +75,7 @@
           "on": "Custom",
           "default": "#000",
           "css_variable": "--obsidian-main-color",
-          "tabs": [
-            "SP",
-            "MainMenu",
-            "QuickAccess"
-          ]
+          "tabs": ["SP", "MainMenu", "QuickAccess"]
         }
       ]
     }
