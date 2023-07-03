@@ -116,6 +116,10 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
   border-radius: var(--round-radius-size) !important;
 }
 
+.appactivityday_PartnerEventMediumImage_Image_VytJz {
+  border-radius: var(--round-radius-size);
+}
+
 /* Trending among friends (annoying to mess with outlines with, sorry if this is confusing lol) */
 .gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ {
   height: 30px;
@@ -158,7 +162,11 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
   overflow: hidden;
 }
 .appactivityday_PlayedGameFirstTime_3fdEo
-  > .appactivityday_EventHeadline_QCKBq {
+  > .appactivityday_EventHeadline_QCKBq,
+.appactivityday_ReceivedNewGame_35ZQ6
+  > .appactivityday_EventHeadline_QCKBq:only-child,
+.appactivityday_AddedGameToWishlist_x6i4r
+  > .appactivityday_EventHeadline_QCKBq:only-child {
   border-radius: var(--round-radius-size);
 }
 .BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
@@ -241,6 +249,28 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
 }
 .basicappdetailssectionstyler_AppButtons_1thLD /* This makes the button a circle */
   .appdetailsplaysection_MenuButton_3qDWQ {
+  border-radius: var(--round-radius-size);
+}
+
+.appdetailsdlcsection_Item_Ie7sd,
+.appdetailsdlcsection_Item_Ie7sd .libraryassetimage_GreyBackground_2E7G8,
+.appdetailsdlcsection_Item_Ie7sd img,
+.appdetailsdlcsection_Remainder_2Dggp {
+  border-radius: var(--round-radius-size) !important;
+}
+
+.appdetailsdlcsection_Gloss_HAvWs {
+  background: none !important;
+}
+
+.achievementiconbase_Icon_2bzHb,
+.achievementiconbase_HiddenLabel_2yMyP,
+.spotlightgameplaysummary_SummaryAchievementIcon_1aeFY {
+  border-radius: var(--round-radius-size);
+}
+
+.spotlightgameplaysummary_SummaryScreenshot_2gFx1,
+.spotlightgameplaysummary_SummaryScreenshot_2gFx1 > img {
   border-radius: var(--round-radius-size);
 }
 
