@@ -319,6 +319,13 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
   border-radius: var(--round-radius-size);
 }
 
+/* Achievements Page */
+
+.achievementspage_AchievementTabs_gxNvE .achievementslist_AchievementListItemBase_2Kmn7,
+.achievementspage_AchievementTabs_gxNvE .achievementslist_GlobalAchievementListItem_316Uo {
+  border-radius: var(--round-radius-size);
+}
+
 /* Exit Game Dialog */
 .gamepaddialog_GamepadDialogContent_3joNk:not(
     .gamepadpagedsettings_PagedSettingsDialog_PageContent_wIOLO
