@@ -335,6 +335,11 @@ button.appdetailsactivitysection_FetchMoreContainer_39Zur.DialogButton.gamepaddi
   border-radius: var(--round-radius-size);
 }
 
+.achievementspage_CompareButtonContainer_1UeO0
+  button.gamepaddropdown_DropDownControlButton_28bny.DialogButton.gamepaddialog_Button_1kn70.Focusable {
+  border-radius: var(--round-radius-size) !important;
+}
+
 /* Exit Game Dialog */
 .gamepaddialog_GamepadDialogContent_3joNk:not(
     .gamepadpagedsettings_PagedSettingsDialog_PageContent_wIOLO
