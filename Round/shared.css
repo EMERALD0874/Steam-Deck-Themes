@@ -263,12 +263,6 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
   background: none !important;
 }
 
-.achievementiconbase_Icon_2bzHb,
-.achievementiconbase_HiddenLabel_2yMyP,
-.spotlightgameplaysummary_SummaryAchievementIcon_1aeFY {
-  border-radius: var(--round-radius-size);
-}
-
 .spotlightgameplaysummary_SummaryScreenshot_2gFx1,
 .spotlightgameplaysummary_SummaryScreenshot_2gFx1 > img {
   border-radius: var(--round-radius-size);
