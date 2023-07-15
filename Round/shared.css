@@ -159,6 +159,7 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
 }
 .appactivityday_Event_UVeN0 {
   border-radius: var(--round-radius-size);
+  border-image: none;
   overflow: hidden;
 }
 .appactivityday_PlayedGameFirstTime_3fdEo
@@ -264,8 +265,15 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
 }
 
 .spotlightgameplaysummary_SummaryScreenshot_2gFx1,
-.spotlightgameplaysummary_SummaryScreenshot_2gFx1 > img {
+.spotlightgameplaysummary_SummaryScreenshot_2gFx1 > img,
+.appdetailsscreenshotssection_Thumbnail_2B8Nk,
+.appdetailsscreenshotssection_Thumbnail_2B8Nk > img:first-child {
   border-radius: var(--round-radius-size);
+}
+
+button.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY.DialogButton.gamepaddialog_Button_1kn70,
+button.appdetailsactivitysection_FetchMoreContainer_39Zur.DialogButton.gamepaddialog_Button_1kn70.Focusable {
+  border-radius: var(--round-radius-size) !important;
 }
 
 /* Media */
