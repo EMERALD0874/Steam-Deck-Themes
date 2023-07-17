@@ -26,7 +26,7 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
 }
 
 /* Recent games and library */
-.libraryassetimage_Image_24_Au {
+.libraryassetimage_Image_24_Au:not(.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R) {
   border-radius: var(--round-radius-size);
 }
 .appportrait_LibraryItemBox_WYgDg {
