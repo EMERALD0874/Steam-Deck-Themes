@@ -190,7 +190,8 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
   overflow: hidden;
 }
 .FriendPickerFriendList,
-.FriendPickerFriendList._DialogInputContainer {
+.FriendPicker_SuggestedFriend.gpfocus .friend,
+.FriendPicker ._DialogInputContainer {
   border-radius: var(--round-radius-size);
 }
 
@@ -281,7 +282,7 @@ button.appdetailsactivitysection_FetchMoreContainer_39Zur.DialogButton.gamepaddi
   border-radius: var(--round-radius-size);
 }
 .mediapage_Screenshot_3Qh8h {
-  border-radius: var(--round-radius-size);
+  border-radius: calc(var(--round-radius-size) + 4px);
 }
 
 /* Downloads */
