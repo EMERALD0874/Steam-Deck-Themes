@@ -163,7 +163,7 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
   overflow: hidden;
 }
 .appactivityday_PlayedGameFirstTime_3fdEo
-  > .appactivityday_EventHeadline_QCKBq,
+  > .appactivityday_EventHeadline_QCKBq:only-child,
 .appactivityday_ReceivedNewGame_35ZQ6
   > .appactivityday_EventHeadline_QCKBq:only-child,
 .appactivityday_AddedGameToWishlist_x6i4r
