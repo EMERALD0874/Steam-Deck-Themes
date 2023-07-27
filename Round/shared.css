@@ -77,6 +77,9 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
 .basicgamecarousel_TextBoxCarouselContents_3bvCH {
   border-radius: var(--round-radius-size);
 }
+.discoveryqueuewidget_DiscoveryQueueWidgetCtn_1iOb7 {
+  border-radius: var(--round-radius-size);
+}
 
 /* What's new */
 .gamepadhomewhatsnew_Darkener_1n_1X {
