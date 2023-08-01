@@ -26,7 +26,7 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
 }
 
 /* Recent games and library */
-.libraryassetimage_Image_24_Au {
+.libraryassetimage_Image_24_Au:not(.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R) {
   border-radius: var(--round-radius-size);
 }
 .appportrait_LibraryItemBox_WYgDg {
@@ -77,6 +77,9 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
 .basicgamecarousel_TextBoxCarouselContents_3bvCH {
   border-radius: var(--round-radius-size);
 }
+.discoveryqueuewidget_DiscoveryQueueWidgetCtn_1iOb7 {
+  border-radius: var(--round-radius-size);
+}
 
 /* What's new */
 .gamepadhomewhatsnew_Darkener_1n_1X {
@@ -114,6 +117,10 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
 .discussionwidget_DiscussContainer_3tXYJ,
 .discussionwidget_ShareContainer_cLK_F {
   border-radius: var(--round-radius-size) !important;
+}
+
+.appactivityday_PartnerEventMediumImage_Image_VytJz {
+  border-radius: var(--round-radius-size);
 }
 
 /* Trending among friends (annoying to mess with outlines with, sorry if this is confusing lol) */
@@ -155,10 +162,15 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
 }
 .appactivityday_Event_UVeN0 {
   border-radius: var(--round-radius-size);
+  border-image: none;
   overflow: hidden;
 }
 .appactivityday_PlayedGameFirstTime_3fdEo
-  > .appactivityday_EventHeadline_QCKBq {
+  > .appactivityday_EventHeadline_QCKBq:first-child:nth-last-child(2),
+.appactivityday_ReceivedNewGame_35ZQ6
+  > .appactivityday_EventHeadline_QCKBq:only-child,
+.appactivityday_AddedGameToWishlist_x6i4r
+  > .appactivityday_EventHeadline_QCKBq:only-child {
   border-radius: var(--round-radius-size);
 }
 .BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
@@ -181,7 +193,8 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
   overflow: hidden;
 }
 .FriendPickerFriendList,
-.FriendPickerFriendList._DialogInputContainer {
+.FriendPicker_SuggestedFriend.gpfocus .friend,
+.FriendPicker ._DialogInputContainer {
   border-radius: var(--round-radius-size);
 }
 
@@ -244,12 +257,35 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
   border-radius: var(--round-radius-size);
 }
 
+.appdetailsdlcsection_Item_Ie7sd,
+.appdetailsdlcsection_Item_Ie7sd .libraryassetimage_GreyBackground_2E7G8,
+.appdetailsdlcsection_Item_Ie7sd img,
+.appdetailsdlcsection_Remainder_2Dggp {
+  border-radius: var(--round-radius-size) !important;
+}
+
+.appdetailsdlcsection_Gloss_HAvWs {
+  background: none !important;
+}
+
+.spotlightgameplaysummary_SummaryScreenshot_2gFx1,
+.spotlightgameplaysummary_SummaryScreenshot_2gFx1 > img:first-child,
+.appdetailsscreenshotssection_Thumbnail_2B8Nk,
+.appdetailsscreenshotssection_Thumbnail_2B8Nk > img:first-child {
+  border-radius: var(--round-radius-size);
+}
+
+button.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY.DialogButton.gamepaddialog_Button_1kn70,
+button.appdetailsactivitysection_FetchMoreContainer_39Zur.DialogButton.gamepaddialog_Button_1kn70.Focusable {
+  border-radius: var(--round-radius-size) !important;
+}
+
 /* Media */
 .mediapage_ImageContainer_120HU {
   border-radius: var(--round-radius-size);
 }
 .mediapage_Screenshot_3Qh8h {
-  border-radius: var(--round-radius-size);
+  border-radius: calc(var(--round-radius-size) + 4px);
 }
 
 /* Downloads */
@@ -293,6 +329,19 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
 .mainmenuapprunning_OverlayAchievements_2Qced
   .achievementsheader_StatsBlock__gDkI {
   border-radius: var(--round-radius-size);
+}
+
+/* Achievements Page */
+
+.achievementsheader_StatsBlock__gDkI,
+.achievementspage_AchievementTabs_gxNvE .achievementslist_AchievementListItemBase_2Kmn7,
+.achievementspage_AchievementTabs_gxNvE .achievementslist_GlobalAchievementListItem_316Uo {
+  border-radius: var(--round-radius-size);
+}
+
+.achievementspage_CompareButtonContainer_1UeO0
+  button.gamepaddropdown_DropDownControlButton_28bny.DialogButton.gamepaddialog_Button_1kn70.Focusable {
+  border-radius: var(--round-radius-size) !important;
 }
 
 /* Exit Game Dialog */
