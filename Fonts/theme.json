@@ -39,6 +39,9 @@
         "Roboto": {
           "font-css/roboto.css": ["SP", "MainMenu", "QuickAccess"]
         },
+        "Figtree": {
+          "font-css/figtree.css": ["SP", "MainMenu", "QuickAccess"]
+        },
         "Custom Template": {
           "font-css/custom.css": ["SP", "MainMenu", "QuickAccess"]
         }

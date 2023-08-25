@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Figtree;
+  src: url("/themes_custom/Fonts/fonts/Figtree-Regular.ttf");
+}
+
+@font-face {
+  font-family: Figtree;
+  src: url("/themes_custom/Fonts/fonts/Figtree-Bold.ttf");
+  font-weight: bold;
+}
+
+* {
+  font-family: Figtree !important;
+}
