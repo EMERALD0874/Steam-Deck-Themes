@@ -260,6 +260,9 @@ OTHER
 .gamepadslider_SliderTrack_Mq25N {
   background: #23262e;
 }
+.gamepaddialog_Field_S-_La.gamepaddialog_WithBottomSeparatorStandard_3s1Rk::after {
+  background: unset;
+}
 /* Media upload */
 .gamepaddialog_ModalPosition_30VHl > .gamepaddialog_GamepadDialogContent_3joNk {
   background: var(--obsidian-main-color);
