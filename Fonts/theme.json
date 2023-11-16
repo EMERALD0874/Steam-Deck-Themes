@@ -2,7 +2,7 @@
   "name": "Fonts",
   "description": "This theme adds a variety of fonts and control over capitalization to the Steam Deck. Fonts used in any of my other themes as well as certain unique fonts are available through this theme. If you would like to add your own font, a CSS template is provided.",
   "author": "EMERALD#0874",
-  "version": "v3.0",
+  "version": "v3.1",
   "manifest_version": 3,
   "inject": {},
   "target": "System-Wide",
@@ -38,6 +38,9 @@
         },
         "Roboto": {
           "font-css/roboto.css": ["SP", "MainMenu", "QuickAccess"]
+        },
+        "Figtree": {
+          "font-css/figtree.css": ["SP", "MainMenu", "QuickAccess"]
         },
         "Custom Template": {
           "font-css/custom.css": ["SP", "MainMenu", "QuickAccess"]
