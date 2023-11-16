@@ -369,6 +369,18 @@ button.appdetailsactivitysection_FetchMoreContainer_39Zur.DialogButton.gamepaddi
   margin-top: 0px !important;
 }
 
+.radio_Active_3ZBFo {
+  border-radius: var(--round-radius-size);
+}
+
+.RadioButton {
+  border-radius: var(--round-radius-size);
+}
+
+.radio_Group_2qYC3 {
+  border-radius: var(--round-radius-size);
+}
+
 /* Options Container  */
 /* 
   The majority of styles in this section were removed due to each container 
