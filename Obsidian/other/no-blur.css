@@ -1,0 +1,24 @@
+/* Scroll Panel */
+.scrollpanel_ScrollPanel_1CXdi,
+.scrollpanel_ScrollY_313lB {
+  background: var(--obsidian-main-color);
+  background-color: var(--obsidian-main-color);
+}
+/* Exception for color adjustment */
+.gamepadui_TransparentBackground_3vBmc .scrollpanel_ScrollPanel_1CXdi,
+.gamepadui_TransparentBackground_3vBmc .scrollpanel_ScrollY_313lB {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Header */
+.gamepadtabbedpage_GamepadTabbedPage_3IBLc.gamepadtabbedpage_IsUnderHeader_31Zle
+  .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs::before,
+.gamepadtabbedpage_TabHeaderRowWrapper_2Jobs.gamepadtabbedpage_ScrolledDown_1jNhb::before {
+  background: var(--obsidian-main-color);
+}
+
+/* Footer */
+#Footer {
+  background: var(--obsidian-main-color);
+}

@@ -1,0 +1,15 @@
+:root {
+  --obsidian-recents-color: #fff;
+}
+.gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8 {
+  background-color: var(--obsidian-recents-color);
+}
+img.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R.gamepadhomerecentgames_OffScreen_Yk-I2::before {
+  display: none;
+}
+.gamepadhomerecentgames_RecentGamesBackground_1SRox {
+  mix-blend-mode: multiply;
+}
+.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R {
+  filter: grayscale(100%) contrast(1);
+}
