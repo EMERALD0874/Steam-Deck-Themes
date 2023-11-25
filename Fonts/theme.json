@@ -15,6 +15,9 @@
         "Android Insomnia": {
           "font-css/android-insomnia.css": ["SP", "MainMenu", "QuickAccess"]
         },
+        "Atkinson Hyperlegible": {
+          "font-css/atkinson-hyperlegible.css": ["SP", "MainMenu", "QuickAccess"]
+        },
         "Bahnschrift": {
           "font-css/bahnschrift.css": ["SP", "MainMenu", "QuickAccess"]
         },
