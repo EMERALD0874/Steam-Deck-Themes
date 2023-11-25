@@ -1,6 +1,8 @@
 {
   "include": [
     "fonts/AndroidInsomniaRegular.ttf",
+    "fonts/Atkinson-Hyperlegible-Regular-102.otf",
+    "fonts/Atkinson-Hyperlegible-Bold-102.otf",
     "fonts/bahnschrift.ttf",
     "fonts/DePixelBreit.ttf",
     "fonts/FiraSans-Regular.ttf",
