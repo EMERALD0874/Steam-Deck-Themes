@@ -1,34 +1,98 @@
 {
   "name": "Round",
-  "description": "This theme adds round edges to any image that can reasonably have them. Certain images like achievements, trading cards, and profile pictures have been left as-is to avoid removing any detail. Anything largely rectangular or difficult to round (ex. sets of buttons, chat, header) has also been left as-is.",
   "author": "EMERALD#0874",
-  "target": "System-Wide",
   "version": "v2.6",
   "manifest_version": 2,
   "inject": {
-    "shared.css": ["SP", "MainMenu", "QuickAccess"]
+    "shared.css": [
+      "SP",
+      "MainMenu",
+      "QuickAccess"
+    ]
   },
   "patches": {
     "Intensity": {
       "default": "10px",
       "type": "slider",
       "values": {
-        "3px": { "intensity/3px.css": ["SP", "MainMenu", "QuickAccess"] },
-        "5px": { "intensity/5px.css": ["SP", "MainMenu", "QuickAccess"] },
-        "10px": { "intensity/10px.css": ["SP", "MainMenu", "QuickAccess"] },
-        "15px": { "intensity/15px.css": ["SP", "MainMenu", "QuickAccess"] },
-        "20px": { "intensity/20px.css": ["SP", "MainMenu", "QuickAccess"] },
-        "30px": { "intensity/30px.css": ["SP", "MainMenu", "QuickAccess"] }
+        "3px": {
+          "intensity/3px.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "5px": {
+          "intensity/5px.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "10px": {
+          "intensity/10px.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "15px": {
+          "intensity/15px.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "20px": {
+          "intensity/20px.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "30px": {
+          "intensity/30px.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        }
       }
     },
     "Outlines": {
       "default": "Round",
       "type": "dropdown",
       "values": {
-        "Round": { "round-outline.css": ["SP", "MainMenu", "QuickAccess"] },
+        "Round": {
+          "round-outline.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
         "Square": {},
-        "Hidden": { "hide-outline.css": ["SP", "MainMenu", "QuickAccess"] }
+        "Hidden": {
+          "hide-outline.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        }
+      }
+    },
+    "Round Onscreen Keyboard": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "keyboard.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "No": {}
       }
     }
-  }
+  },
+  "id": "c6844008-a809-41f6-b140-7aa76f2a62ad"
 }

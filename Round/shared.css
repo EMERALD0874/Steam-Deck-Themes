@@ -148,6 +148,14 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
 }
 
 /* Friends */
+.friend {
+  border-radius: var(--round-radius-size);  
+}
+
+.appdetailsfriendssection_AvatarAndLabel_1GCZA {
+  border-radius: var(--round-radius-size);  
+}
+
 .gamepadhomefriends_FavoriteFriend_3SLpz,
 .gamepadhomefriends_GoToFriends_MVc_6 {
   border-radius: var(--round-radius-size);
@@ -351,11 +359,26 @@ button.appdetailsactivitysection_FetchMoreContainer_39Zur.DialogButton.gamepaddi
   border-radius: var(--round-radius-size);
 }
 
+/* Header */
+.searchbar_SearchAndTitleContainer_17M8g,
+.header_HeaderItem_2HnVd, 
+.header_Clickable_8sPcK {
+  border-radius: var(--round-radius-size);
+  margin-right: 5px;
+}
+
+.header_CurrentUserAvatar_2HXdb {
+  margin-left: 5px;
+  padding: 0px;
+  margin-right: 5px;
+}
+
 /* Settings */
 .DialogCheckbox_Container,
 .gamepadslider_EditableValue_2DXnl {
   border-radius: var(--round-radius-size) !important;
 }
+
 
 .controllerconfigurator_interstitial_ControlLabel_tGJeF,
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN, /* This is selecting a controller layout */

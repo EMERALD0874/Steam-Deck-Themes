@@ -1,0 +1,18 @@
+:root {
+    --round-radius-size: none;
+}
+
+.virtualkeyboard_Keyboard_45rH7,
+.virtualkeyboard_KeyboardKeyHitArea_1YqjV,
+.virtualkeyboard_KeyboardKey_2KhPX {
+    border-radius: var(--round-radius-size);
+}
+
+.KeyTheme_Tab span,
+.KeyTheme_Backspace span,
+.KeyTheme_Enter span,
+.KeyTheme_CapsLock span,
+.KeyTheme_Shift span,
+.virtualkeyboard_ActionButtonGlyph_3VtXf {
+    padding: 5%;
+}
