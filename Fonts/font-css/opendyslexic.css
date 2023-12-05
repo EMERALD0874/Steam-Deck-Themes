@@ -1,0 +1,16 @@
+@font-face {
+  font-family: OpenDyslexic;
+  src: url("/themes_custom/Fonts/fonts/OpenDyslexic-Regular.otf");
+}
+
+
+@font-face {
+  font-family: OpenDyslexic;
+  src: url("/themes_custom/Fonts/fonts/OpenDyslexic-Bold.otf");
+  font-weight: bold;
+}
+
+
+* {
+  font-family: OpenDyslexic !important;
+}
