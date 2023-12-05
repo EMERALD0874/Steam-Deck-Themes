@@ -39,6 +39,9 @@
         "Montserrat": {
           "font-css/montserrat.css": ["SP", "MainMenu", "QuickAccess"]
         },
+        "OpenDyslexic": {
+          "font-css/opendyslexic.css": ["SP", "MainMenu", "QuickAccess"]
+        },
         "Optima Nova": {
           "font-css/optima-nova.css": ["SP", "MainMenu", "QuickAccess"]
         },
