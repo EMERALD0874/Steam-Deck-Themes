@@ -1,6 +1,6 @@
 {
   "name": "Fonts",
-  "description": "This theme adds a variety of fonts and control over capitalization to the Steam Deck. Fonts used in any of my other themes as well as certain unique fonts are available through this theme. If you would like to add your own font, a CSS template is provided.",
+  "description": "This theme adds a variety of fonts and control over capitalization to the Steam Deck. Atkinson Hyperlegible and OpenDyslexic are fonts designed to help readers with visual impairments and dyslexia respectively. If you would like to add your own font, a guide and template are available in ~/homebrew/themes/Fonts/font-css/custom.css. Please do not make PRs to my theme repository with additional fonts as they will not be considered. Thanks!",
   "author": "EMERALD0874",
   "version": "v3.3",
   "manifest_version": 3,
