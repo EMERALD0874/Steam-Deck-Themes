@@ -1,6 +1,8 @@
 {
   "include": [
     "fonts/AndroidInsomniaRegular.ttf",
+    "fonts/Atkinson-Hyperlegible-Regular-102.otf",
+    "fonts/Atkinson-Hyperlegible-Bold-102.otf",
     "fonts/bahnschrift.ttf",
     "fonts/DePixelBreit.ttf",
     "fonts/FiraSans-Regular.ttf",
@@ -8,6 +10,8 @@
     "fonts/Lato-Regular.ttf",
     "fonts/Montserrat-Bold.ttf",
     "fonts/Montserrat-Regular.ttf",
+    "fonts/OpenDyslexic-Regular.otf",
+    "fonts/OpenDyslexic-Bold.otf",
     "fonts/optima-nova-lt-black.otf",
     "fonts/Roboto-Bold.ttf",
     "fonts/Roboto-Regular.ttf"

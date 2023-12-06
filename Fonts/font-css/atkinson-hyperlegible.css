@@ -1,0 +1,16 @@
+@font-face {
+  font-family: AtkinsonHyperlegible;
+  src: url("/themes_custom/Fonts/fonts/Atkinson-Hyperlegible-Regular-102.otf");
+}
+
+
+@font-face {
+  font-family: AtkinsonHyperlegible;
+  src: url("/themes_custom/Fonts/fonts/Atkinson-Hyperlegible-Bold-102.otf");
+  font-weight: bold;
+}
+
+
+* {
+  font-family: AtkinsonHyperlegible !important;
+}
