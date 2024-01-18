@@ -12,6 +12,9 @@
       "type": "dropdown",
       "values": {
         "None": {},
+        "Agave": {
+          "font-css/agave.css": ["SP", "MainMenu", "QuickAccess"]
+        },
         "Android Insomnia": {
           "font-css/android-insomnia.css": ["SP", "MainMenu", "QuickAccess"]
         },

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Agave;
+  src: url("/themes_custom/Fonts/fonts/AgaveNerdFont-Regular.ttf");
+}
+
+* {
+  font-family: Agave !important;
+}
