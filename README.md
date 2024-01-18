@@ -67,7 +67,7 @@ pictured below.
 ### Fonts
 
 This theme adds a variety of fonts and control over capitalization to the Steam Deck. Fonts used in any of my other themes as well as certain unique fonts are available
-through this theme. Additional fonts can be contributed through a pull request. Pictured below is Roboto with standard capitalization enforced.
+through this theme. Fonts is not accepting new fonts unless they have a reasonable basis (ex. accessibility improvements). Pictured below is Roboto with standard capitalization enforced.
 
 ![Fonts preview](./resources/images/readme/fonts.jpg)
 
