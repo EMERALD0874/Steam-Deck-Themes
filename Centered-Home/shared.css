@@ -1,5 +1,5 @@
 @media all and (max-width: 1200px) {
-  /* wont be apply in handheld mode as it cuts off the background blur*/
+  /* wont be applied in docked mode as it cuts off the background blur*/
   .basicgamecarousel_BasicGameCarousel_3MdH5 {
     height: 320px !important;
   }
