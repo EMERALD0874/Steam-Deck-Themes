@@ -4,12 +4,13 @@
   }
 
   .gamepadhomerecentgames_RecentGamesContainer_2_cRk {
-    padding-top: 200px !important;
+    padding: 0 !important;
     height: 100%;
+    display: flex;
   }
 
-  /* prevent that blur behind the selected game is cut off */
-  .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
-    bottom: 55px;
+  .gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
+    flex: 1;
+    margin: auto;
   }
 }
