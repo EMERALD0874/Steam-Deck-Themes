@@ -1,0 +1,15 @@
+@media all and (min-width: 1300px) {
+  .gamepadhome_RecentSection_39tNv {
+    height: 100%;
+  }
+
+  .gamepadhomerecentgames_RecentGamesContainer_2_cRk {
+    padding-top: 200px !important;
+    height: 100%;
+  }
+
+  /* prevent that blur behind the selected game is cut off */
+  .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
+    bottom: 55px;
+  }
+}

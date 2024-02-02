@@ -26,6 +26,18 @@
         "No": {},
         "Yes": { "force-header.css": ["SP"] }
       }
+    },
+    "Expand when docked": {
+      "default": "Yes",
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "docked.css": [
+            "SP"
+          ]
+        }
+      }
     }
   }
 }
