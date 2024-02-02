@@ -32,11 +32,7 @@
       "type": "checkbox",
       "values": {
         "No": {},
-        "Yes": {
-          "docked.css": [
-            "SP"
-          ]
-        }
+        "Yes": { "docked.css": ["SP"] }
       }
     }
   }
