@@ -1,0 +1,16 @@
+@media all and (min-width: 1300px) {
+  .gamepadhome_RecentSection_39tNv {
+    height: 100%;
+  }
+
+  .gamepadhomerecentgames_RecentGamesContainer_2_cRk {
+    padding: 0 !important;
+    height: 100%;
+    display: flex;
+  }
+
+  .gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
+    flex: 1;
+    margin: auto;
+  }
+}
