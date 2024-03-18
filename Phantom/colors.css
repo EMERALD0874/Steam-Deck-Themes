@@ -25,7 +25,10 @@
 }
 
 /* Stylize library */
-.gamepadlibrary_GamepadLibrary_ZBBhe {
+.gamepadlibrary_GamepadLibrary_ZBBhe,
+.gamepadlibrary_GamepadLibrary_ZBBhe .scrollpanel_ScrollPanel_1CXdi,
+.gamepadlibrary_GamepadLibrary_ZBBhe
+  .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs::before {
   background: var(--phantom-color) !important;
 }
 .gamepadlibrary_GamepadLibrary_ZBBhe

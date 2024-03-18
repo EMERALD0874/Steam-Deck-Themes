@@ -40,8 +40,8 @@
   > *
   > *
   > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J,
-.appgrid_YourCollection_11p6F > *:nth-child(5n-4) > .appportrait_Portrait_1Pf6J,
-.appgrid_YourCollection_11p6F > *:nth-child(5n) > .appportrait_Portrait_1Pf6J {
+.appgrid_YourCollection_11p6F > *:nth-child(5n-4) .appportrait_Portrait_1Pf6J,
+.appgrid_YourCollection_11p6F > *:nth-child(5n) .appportrait_Portrait_1Pf6J {
   background-image: url("/themes_custom/Phantom/images/portrait_1.png");
   background-size: cover;
   -webkit-mask-image: url("/themes_custom/Phantom/images/portrait_1_mask2.png");
@@ -56,11 +56,11 @@
   > .libraryassetimage_PortraitImage_3Ehhd,
 .appgrid_YourCollection_11p6F
   > *:nth-child(5n-4)
-  > .appportrait_Portrait_1Pf6J
+  .appportrait_Portrait_1Pf6J
   > .libraryassetimage_PortraitImage_3Ehhd,
 .appgrid_YourCollection_11p6F
   > *:nth-child(5n)
-  > .appportrait_Portrait_1Pf6J
+  .appportrait_Portrait_1Pf6J
   > .libraryassetimage_PortraitImage_3Ehhd {
   -webkit-mask-image: url("/themes_custom/Phantom/images/portrait_1_mask.png");
   -webkit-mask-size: cover;
@@ -72,9 +72,7 @@
   > *
   > *
   > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J,
-.appgrid_YourCollection_11p6F
-  > *:nth-child(5n-3)
-  > .appportrait_Portrait_1Pf6J {
+.appgrid_YourCollection_11p6F > *:nth-child(5n-3) .appportrait_Portrait_1Pf6J {
   background-image: url("/themes_custom/Phantom/images/portrait_2.png");
   background-size: cover;
   -webkit-mask-image: url("/themes_custom/Phantom/images/portrait_2.png");
@@ -89,7 +87,7 @@
   > .libraryassetimage_PortraitImage_3Ehhd,
 .appgrid_YourCollection_11p6F
   > *:nth-child(5n-3)
-  > .appportrait_Portrait_1Pf6J
+  .appportrait_Portrait_1Pf6J
   > .libraryassetimage_PortraitImage_3Ehhd {
   -webkit-mask-image: url("/themes_custom/Phantom/images/portrait_2_mask.png");
   -webkit-mask-size: cover;
@@ -101,9 +99,7 @@
   > *
   > *
   > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J,
-.appgrid_YourCollection_11p6F
-  > *:nth-child(5n-2)
-  > .appportrait_Portrait_1Pf6J {
+.appgrid_YourCollection_11p6F > *:nth-child(5n-2) .appportrait_Portrait_1Pf6J {
   background-image: url("/themes_custom/Phantom/images/portrait_3.png");
   background-size: cover;
   -webkit-mask-image: url("/themes_custom/Phantom/images/portrait_3_mask2.png");
@@ -118,7 +114,7 @@
   > .libraryassetimage_PortraitImage_3Ehhd,
 .appgrid_YourCollection_11p6F
   > *:nth-child(5n-2)
-  > .appportrait_Portrait_1Pf6J
+  .appportrait_Portrait_1Pf6J
   > .libraryassetimage_PortraitImage_3Ehhd {
   -webkit-mask-image: url("/themes_custom/Phantom/images/portrait_3_mask.png");
   -webkit-mask-size: cover;
@@ -130,9 +126,7 @@
   > *
   > *
   > .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J,
-.appgrid_YourCollection_11p6F
-  > *:nth-child(5n-1)
-  > .appportrait_Portrait_1Pf6J {
+.appgrid_YourCollection_11p6F > *:nth-child(5n-1) .appportrait_Portrait_1Pf6J {
   background-image: url("/themes_custom/Phantom/images/portrait_4.png");
   background-size: cover;
   -webkit-mask-image: url("/themes_custom/Phantom/images/portrait_4_mask2.png");
@@ -147,7 +141,7 @@
   > .libraryassetimage_PortraitImage_3Ehhd,
 .appgrid_YourCollection_11p6F
   > *:nth-child(5n-1)
-  > .appportrait_Portrait_1Pf6J
+  .appportrait_Portrait_1Pf6J
   > .libraryassetimage_PortraitImage_3Ehhd {
   -webkit-mask-image: url("/themes_custom/Phantom/images/portrait_4_mask.png");
   -webkit-mask-size: cover;

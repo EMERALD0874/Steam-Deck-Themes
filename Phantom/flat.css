@@ -1,12 +1,16 @@
 /* Remove hovered game glow */
 .gpfocuswithin ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
 :hover ~ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
-  opacity: 0;
+  /* SGDB messes with opacity, so override it */
+  display: none;
 }
 
 /* Remove hovered game brightness */
 .BasicUI .appportrait_LibraryItemBox_WYgDg::after {
   background: none;
+}
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
+  filter: brightness(0.909);
 }
 
 /* Get rid of header art scaling */
@@ -32,13 +36,17 @@
 .gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R {
   -webkit-mask-image: none;
 }
-.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R.gamepadhomerecentgames_MoveLeft_30M_n:not(.gamepadhomerecentgames_OffScreen_Yk-I2) {
+.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R.gamepadhomerecentgames_MoveLeft_30M_n:not(
+    .gamepadhomerecentgames_OffScreen_Yk-I2
+  ) {
   animation-name: gamepadhomerecentgames_OpacityIn;
 }
 .gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R.gamepadhomerecentgames_OffScreen_Yk-I2.gamepadhomerecentgames_MoveLeft_30M_n {
   animation-name: gamepadhomerecentgames_OpacityOut;
 }
-.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R.gamepadhomerecentgames_MoveRight_3dyds:not(.gamepadhomerecentgames_OffScreen_Yk-I2) {
+.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R.gamepadhomerecentgames_MoveRight_3dyds:not(
+    .gamepadhomerecentgames_OffScreen_Yk-I2
+  ) {
   animation-name: gamepadhomerecentgames_OpacityIn;
 }
 .gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R.gamepadhomerecentgames_OffScreen_Yk-I2.gamepadhomerecentgames_MoveRight_3dyds {
