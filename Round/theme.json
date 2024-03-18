@@ -25,7 +25,8 @@
       "default": "Round",
       "type": "dropdown",
       "values": {
-        "Round": {},
+        "Round": { "round-outline.css": ["SP", "MainMenu", "QuickAccess"] },
+        "Square": {},
         "Hidden": { "hide-outline.css": ["SP", "MainMenu", "QuickAccess"] }
       }
     }
