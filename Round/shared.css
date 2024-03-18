@@ -26,7 +26,9 @@ div.gamepadcontextmenu_contextMenuContents_sIgB- {
 }
 
 /* Recent games and library */
-.libraryassetimage_Image_24_Au:not(.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R) {
+.libraryassetimage_Image_24_Au:not(
+    .gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R
+  ) {
   border-radius: var(--round-radius-size);
 }
 .appportrait_LibraryItemBox_WYgDg {
@@ -334,8 +336,10 @@ button.appdetailsactivitysection_FetchMoreContainer_39Zur.DialogButton.gamepaddi
 /* Achievements Page */
 
 .achievementsheader_StatsBlock__gDkI,
-.achievementspage_AchievementTabs_gxNvE .achievementslist_AchievementListItemBase_2Kmn7,
-.achievementspage_AchievementTabs_gxNvE .achievementslist_GlobalAchievementListItem_316Uo {
+.achievementspage_AchievementTabs_gxNvE
+  .achievementslist_AchievementListItemBase_2Kmn7,
+.achievementspage_AchievementTabs_gxNvE
+  .achievementslist_GlobalAchievementListItem_316Uo {
   border-radius: var(--round-radius-size);
 }
 
@@ -396,7 +400,7 @@ button.appdetailsactivitysection_FetchMoreContainer_39Zur.DialogButton.gamepaddi
   border-top-right-radius: var(--round-radius-size);
 }
 
-.gamepadcontextmenu_contextMenuContents_sIgB->:last-child {
+.gamepadcontextmenu_contextMenuContents_sIgB- > :last-child {
   border-bottom-left-radius: var(--round-radius-size);
   border-bottom-right-radius: var(--round-radius-size);
 }
@@ -424,4 +428,13 @@ button.appdetailsactivitysection_FetchMoreContainer_39Zur.DialogButton.gamepaddi
 /* Add Support for ProtonDB Badge plugin by OMGDuke */
 .protondb-decky-indicator {
   border-radius: var(--round-radius-size) !important;
+}
+
+/* Download icon and bar */
+.header_HeaderDownloadContainer_2ssr3 .libraryassetimage_Container_1R9r2 {
+  border-radius: var(--round-radius-size) !important;
+}
+.header_HeaderDownloadProgressBarBackground_vo3Tt {
+  border-radius: var(--round-radius-size);
+  overflow: hidden;
 }
